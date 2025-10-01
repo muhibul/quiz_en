@@ -13,20 +13,39 @@ $(document).ready(function() {
     loadQuizData();
     
     function loadQuizData() {
+        console.log('Starting to load quiz data...');
+        
         // Load all JSON files
         $.when(
             $.getJSON('data/config.json'),
             $.getJSON('data/topics.json'),
             $.getJSON('data/questions.json')
         ).done(function(configData, topicsData, questionsData) {
+            console.log('Data loaded successfully!');
             config = configData[0];
             topics = topicsData[0];
             allQuestions = questionsData[0];
             
+            console.log('Config:', config);
+            console.log('Topics:', topics.length);
+            console.log('Questions:', allQuestions.length);
+            
             initializeQuiz();
         }).fail(function(error) {
             console.error('Error loading data:', error);
-            $('#loading').html('<div class="alert alert-danger">Error loading quiz data. Please refresh the page.</div>');
+            console.error('Error details:', error.responseText);
+            $('#loading').html(`
+                <div class="alert alert-danger">
+                    <h5>Error loading quiz data</h5>
+                    <p>Status: ${error.status} - ${error.statusText}</p>
+                    <p>Please check:</p>
+                    <ul>
+                        <li>Your internet connection</li>
+                        <li>Browser console for detailed errors (F12)</li>
+                        <li>Try hard refreshing (Ctrl+F5 or Cmd+Shift+R)</li>
+                    </ul>
+                </div>
+            `);
         });
     }
     
