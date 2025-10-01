@@ -1,0 +1,11 @@
+[
+  { "id": 1, "name": "Present Simple Tense", "locked": false },
+  { "id": 2, "name": "Past Tense", "locked": true },
+  { "id": 3, "name": "Future Tense", "locked": false },
+  { "id": 4, "name": "Present Continuous", "locked": false },
+  { "id": 5, "name": "Modal Verbs", "locked": false },
+  { "id": 6, "name": "Conditionals", "locked": true },
+  { "id": 7, "name": "Passive Voice", "locked": false },
+  { "id": 8, "name": "Prepositions", "locked": true }
+]
+

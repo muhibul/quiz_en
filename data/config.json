@@ -1,0 +1,7 @@
+{
+  "examTimeMinutes": 10,
+  "numberOfQuestions": 20,
+  "shuffleQuestions": true,
+  "shuffleOptions": true
+}
+

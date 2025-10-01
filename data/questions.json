@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1,
+    "topicId": 1,
+    "question": "He ___ to school every day.",
+    "options": ["go", "goes", "going", "gone"],
+    "answer": 1,
+    "explanation": "In the present simple tense, we use 'goes' (with 's') for third person singular subjects (he, she, it). The action 'every day' indicates a habitual action requiring present simple."
+  },
+  {
+    "id": 2,
+    "topicId": 1,
+    "question": "They ___ English fluently.",
+    "options": ["speaks", "speak", "speaking", "spoke"],
+    "answer": 1,
+    "explanation": "With plural subjects like 'they', we use the base form of the verb without 's'. 'Speak' is correct for the present simple tense with plural subjects."
+  },
+  {
+    "id": 3,
+    "topicId": 1,
+    "question": "She ___ her homework every evening.",
+    "options": ["do", "does", "doing", "did"],
+    "answer": 1,
+    "explanation": "'Does' is the correct form for third person singular (she) in present simple tense. Regular actions like 'every evening' require present simple."
+  },
+  {
+    "id": 4,
+    "topicId": 1,
+    "question": "We ___ coffee in the morning.",
+    "options": ["drinks", "drink", "drinking", "drank"],
+    "answer": 1,
+    "explanation": "'We' is a plural subject, so we use 'drink' without 's'. This describes a habitual action in present simple tense."
+  },
+  {
+    "id": 5,
+    "topicId": 1,
+    "question": "The sun ___ in the east.",
+    "options": ["rise", "rises", "rising", "rose"],
+    "answer": 1,
+    "explanation": "'The sun' is third person singular, requiring 'rises' with 's'. This is a general truth, which uses present simple tense."
+  },
+  {
+    "id": 6,
+    "topicId": 2,
+    "question": "She ___ a movie yesterday.",
+    "options": ["watch", "watched", "watching", "watches"],
+    "answer": 1,
+    "explanation": "'Yesterday' is a past time marker, so we need the past simple form 'watched'. Regular verbs add '-ed' in the past tense."
+  },
+  {
+    "id": 7,
+    "topicId": 2,
+    "question": "I ___ to Paris last summer.",
+    "options": ["go", "goes", "went", "going"],
+    "answer": 2,
+    "explanation": "'Last summer' indicates past time, requiring past tense. 'Went' is the irregular past form of 'go'."
+  },
+  {
+    "id": 8,
+    "topicId": 2,
+    "question": "They ___ the game last night.",
+    "options": ["win", "wins", "won", "winning"],
+    "answer": 2,
+    "explanation": "'Last night' signals past time. 'Won' is the irregular past tense form of 'win'."
+  },
+  {
+    "id": 9,
+    "topicId": 3,
+    "question": "I ___ visit my grandparents tomorrow.",
+    "options": ["will", "would", "was", "am"],
+    "answer": 0,
+    "explanation": "'Tomorrow' indicates future time. We use 'will' + base verb to express simple future intentions or predictions."
+  },
+  {
+    "id": 10,
+    "topicId": 3,
+    "question": "She ___ start her new job next week.",
+    "options": ["is", "was", "will", "were"],
+    "answer": 2,
+    "explanation": "'Next week' is a future time marker, requiring 'will' to form the simple future tense."
+  },
+  {
+    "id": 11,
+    "topicId": 3,
+    "question": "They ___ to the beach next summer.",
+    "options": ["go", "went", "will go", "goes"],
+    "answer": 2,
+    "explanation": "'Next summer' indicates future time. 'Will go' is the correct future tense construction."
+  },
+  {
+    "id": 12,
+    "topicId": 3,
+    "question": "We ___ a party next month.",
+    "options": ["having", "have", "will have", "had"],
+    "answer": 2,
+    "explanation": "'Next month' is a future time expression, so we need 'will have' to express a planned future event."
+  },
+  {
+    "id": 13,
+    "topicId": 4,
+    "question": "He ___ dinner right now.",
+    "options": ["is cooking", "cook", "cooks", "cooked"],
+    "answer": 0,
+    "explanation": "'Right now' indicates an action happening at this moment. Present continuous (is/are + -ing) describes ongoing actions. 'Is cooking' is correct."
+  },
+  {
+    "id": 14,
+    "topicId": 4,
+    "question": "They ___ soccer at the moment.",
+    "options": ["play", "plays", "are playing", "played"],
+    "answer": 2,
+    "explanation": "'At the moment' signals an ongoing action. Use present continuous 'are playing' for actions happening now."
+  },
+  {
+    "id": 15,
+    "topicId": 4,
+    "question": "I ___ a book right now.",
+    "options": ["read", "reads", "am reading", "reading"],
+    "answer": 2,
+    "explanation": "'Right now' requires present continuous. With 'I', we use 'am reading' to show the action is happening at this moment."
+  },
+  {
+    "id": 16,
+    "topicId": 4,
+    "question": "She ___ on the phone at the moment.",
+    "options": ["talks", "talk", "is talking", "talked"],
+    "answer": 2,
+    "explanation": "'At the moment' indicates present continuous tense. 'Is talking' shows an action in progress right now."
+  },
+  {
+    "id": 17,
+    "topicId": 4,
+    "question": "We ___ for the bus now.",
+    "options": ["wait", "waits", "are waiting", "waited"],
+    "answer": 2,
+    "explanation": "'Now' signals present continuous. 'Are waiting' correctly expresses an ongoing action at the present moment."
+  },
+  {
+    "id": 18,
+    "topicId": 5,
+    "question": "You ___ wear a seatbelt while driving.",
+    "options": ["must", "might", "could", "would"],
+    "answer": 0,
+    "explanation": "'Must' expresses strong obligation or necessity. Wearing a seatbelt is a legal requirement, so 'must' is the correct modal verb."
+  },
+  {
+    "id": 19,
+    "topicId": 5,
+    "question": "She ___ speak three languages.",
+    "options": ["must", "can", "should", "would"],
+    "answer": 1,
+    "explanation": "'Can' expresses ability. It means she has the ability to speak three languages. 'Can' is used for skills and abilities."
+  },
+  {
+    "id": 20,
+    "topicId": 5,
+    "question": "We ___ go to the party if we finish work early.",
+    "options": ["must", "can", "might", "would"],
+    "answer": 2,
+    "explanation": "'Might' expresses possibility or uncertainty. It indicates there's a chance we'll go, but it's not certain."
+  },
+  {
+    "id": 21,
+    "topicId": 5,
+    "question": "You ___ study harder to pass the exam.",
+    "options": ["can", "should", "might", "could"],
+    "answer": 1,
+    "explanation": "'Should' gives advice or recommendation. It suggests studying harder is a good idea to achieve the goal of passing."
+  },
+  {
+    "id": 22,
+    "topicId": 5,
+    "question": "I ___ help you with your homework tomorrow.",
+    "options": ["must", "should", "will", "might"],
+    "answer": 2,
+    "explanation": "'Might' expresses possibility. It means there's a chance I'll help, but it's not definite. 'Might' shows uncertainty about a future action."
+  },
+  {
+    "id": 23,
+    "topicId": 6,
+    "question": "If it rains, we ___ stay home.",
+    "options": ["will", "would", "can", "should"],
+    "answer": 0,
+    "explanation": "This is a first conditional (real/likely condition). The structure is: If + present simple, will + base verb. 'Will' expresses a likely future result."
+  },
+  {
+    "id": 24,
+    "topicId": 6,
+    "question": "If I ___ rich, I would travel the world.",
+    "options": ["am", "was", "were", "will be"],
+    "answer": 2,
+    "explanation": "Second conditional (unreal/hypothetical) uses 'If + past simple, would + base verb'. With 'I', we use 'were' (not 'was') in formal conditional sentences."
+  },
+  {
+    "id": 25,
+    "topicId": 7,
+    "question": "The book ___ by millions of people.",
+    "options": ["reads", "is read", "read", "reading"],
+    "answer": 1,
+    "explanation": "The book receives the action (is being read), so we need passive voice. Present simple passive is formed with 'is/are + past participle': 'is read'."
+  },
+  {
+    "id": 26,
+    "topicId": 7,
+    "question": "The house ___ last year.",
+    "options": ["built", "was built", "is built", "building"],
+    "answer": 1,
+    "explanation": "The house received the action in the past. Past simple passive uses 'was/were + past participle': 'was built'."
+  },
+  {
+    "id": 27,
+    "topicId": 7,
+    "question": "English ___ all over the world.",
+    "options": ["speaks", "is spoken", "spoke", "speaking"],
+    "answer": 1,
+    "explanation": "English is the object of the action (people speak it). Present simple passive 'is spoken' shows a general truth about English."
+  },
+  {
+    "id": 28,
+    "topicId": 7,
+    "question": "The car ___ every week.",
+    "options": ["washes", "is washed", "washed", "washing"],
+    "answer": 1,
+    "explanation": "The car receives the washing action. Present simple passive 'is washed' describes a regular, repeated action."
+  },
+  {
+    "id": 29,
+    "topicId": 8,
+    "question": "She is interested ___ learning French.",
+    "options": ["on", "in", "at", "for"],
+    "answer": 1,
+    "explanation": "The adjective 'interested' is always followed by the preposition 'in'. This is a fixed collocation in English."
+  },
+  {
+    "id": 30,
+    "topicId": 8,
+    "question": "He arrived ___ the airport on time.",
+    "options": ["in", "on", "at", "to"],
+    "answer": 2,
+    "explanation": "We use 'at' for specific points or locations like airports, stations, or specific buildings. 'Arrived at the airport' is the correct phrase."
+  },
+  {
+    "id": 31,
+    "topicId": 8,
+    "question": "We live ___ a small town.",
+    "options": ["on", "in", "at", "by"],
+    "answer": 1,
+    "explanation": "We use 'in' for towns, cities, and countries. 'In a small town' indicates being inside or within the boundaries of the town."
+  },
+  {
+    "id": 32,
+    "topicId": 8,
+    "question": "The meeting is ___ Monday.",
+    "options": ["in", "at", "on", "by"],
+    "answer": 2,
+    "explanation": "We use 'on' with days of the week. 'On Monday' is the standard preposition for specific days."
+  },
+  {
+    "id": 33,
+    "topicId": 8,
+    "question": "She is good ___ mathematics.",
+    "options": ["in", "on", "at", "for"],
+    "answer": 2,
+    "explanation": "The adjective 'good' is followed by 'at' when talking about skills or subjects. 'Good at mathematics' is the correct collocation."
+  },
+  {
+    "id": 34,
+    "topicId": 1,
+    "question": "My sister ___ in a hospital.",
+    "options": ["work", "works", "working", "worked"],
+    "answer": 1,
+    "explanation": "'My sister' is third person singular, requiring 'works' with 's' in present simple tense. This describes her current job/occupation."
+  },
+  {
+    "id": 35,
+    "topicId": 1,
+    "question": "Dogs ___ bones.",
+    "options": ["likes", "like", "liking", "liked"],
+    "answer": 1,
+    "explanation": "'Dogs' is a plural subject, so we use 'like' without 's'. This is a general statement about dogs in present simple tense."
+  },
+  {
+    "id": 36,
+    "topicId": 3,
+    "question": "It ___ rain tomorrow.",
+    "options": ["is", "was", "will", "were"],
+    "answer": 2,
+    "explanation": "'Tomorrow' indicates future time. 'Will' + base verb ('will rain') is used to make predictions about the future weather."
+  },
+  {
+    "id": 37,
+    "topicId": 4,
+    "question": "Look! The children ___ in the garden.",
+    "options": ["play", "plays", "are playing", "played"],
+    "answer": 2,
+    "explanation": "'Look!' draws attention to something happening now. Present continuous 'are playing' describes an action in progress at this moment."
+  },
+  {
+    "id": 38,
+    "topicId": 5,
+    "question": "___ you please pass me the salt?",
+    "options": ["Must", "Should", "Could", "Might"],
+    "answer": 2,
+    "explanation": "'Could' is used for polite requests. 'Could you please...' is a courteous way to ask someone to do something."
+  },
+  {
+    "id": 39,
+    "topicId": 7,
+    "question": "The letter ___ yesterday.",
+    "options": ["sends", "is sent", "was sent", "sending"],
+    "answer": 2,
+    "explanation": "The letter received the action in the past ('yesterday'). Past simple passive 'was sent' is formed with was/were + past participle."
+  },
+  {
+    "id": 40,
+    "topicId": 8,
+    "question": "I'm afraid ___ spiders.",
+    "options": ["from", "of", "at", "for"],
+    "answer": 1,
+    "explanation": "The adjective 'afraid' is always followed by 'of' when expressing fear of something. This is a fixed prepositional phrase."
+  }
+]
+

@@ -1,0 +1,125 @@
+
+---
+
+# 🔹 Grammar Quiz Web App
+
+Build a **web-based English grammar quiz application** with the following specifications:
+
+---
+
+## 📂 File Structure
+
+```
+quiz-app/
+│
+├── index.html          # Main quiz page
+├── js/
+│   └── app.js          # jQuery logic
+├── data/
+│   ├── config.json     # Exam settings
+│   ├── topics.json     # Topic list (locked/unlocked)
+│   └── questions.json  # Questions with answers
+```
+
+---
+
+## 🔹 JSON Files
+
+### 1. config.json
+
+Holds exam session settings:
+
+```json
+{
+  "examTimeMinutes": 20,
+  "numberOfQuestions": 30,
+  "shuffleQuestions": true,
+  "shuffleOptions": true
+}
+```
+
+### 2. topics.json
+
+Defines available grammar topics with lock/unlock toggle:
+
+```json
+[
+  { "id": 1, "name": "Present Simple Tense", "locked": false },
+  { "id": 2, "name": "Past Tense", "locked": true },
+  { "id": 3, "name": "Future Tense", "locked": false }
+]
+```
+
+### 3. questions.json
+
+Stores all questions, mapped by topicId:
+
+```json
+[
+  {
+    "id": 1,
+    "topicId": 1,
+    "question": "He ___ to school every day.",
+    "options": ["go", "goes", "going", "gone"],
+    "answer": 1
+  },
+  {
+    "id": 2,
+    "topicId": 2,
+    "question": "She ___ a movie yesterday.",
+    "options": ["watch", "watched", "watching", "watches"],
+    "answer": 1
+  },
+  {
+    "id": 3,
+    "topicId": 3,
+    "question": "I ___ visit my grandparents tomorrow.",
+    "options": ["will", "would", "was", "am"],
+    "answer": 0
+  }
+]
+```
+
+---
+
+## 🔹 Functional Requirements
+
+1. **Loading & Setup**
+
+   * Load `config.json` for exam settings.
+   * Load `topics.json` → filter only unlocked topics.
+   * Load `questions.json` → select random questions from unlocked topics.
+   * Limit total questions to `numberOfQuestions` from config.
+
+2. **Quiz Page**
+
+   * Display all selected questions on **one single page**.
+   * Each question has multiple-choice answers with radio buttons.
+   * Layout styled using **Bootstrap**.
+
+3. **Timer**
+
+   * Countdown timer at the top, duration from `config.json`.
+   * Auto-submit answers when time runs out.
+
+4. **Answering Rules**
+
+   * User can modify answers until submitting.
+   * Submit button at the bottom of the page.
+
+5. **Submission**
+
+   * On submit or auto-submit by timer:
+
+     * Calculate score (# correct answers).
+     * Show results summary on screen.
+     * Send result via **email** (using backend such as Node.js + Nodemailer, or EmailJS if no backend).
+
+---
+
+## 🔹 Tech Stack
+
+* **Frontend:** HTML5, jQuery, Bootstrap CSS.
+* **Backend (for email):** Node.js Express with Nodemailer, or EmailJS for serverless email sending.
+
+---
