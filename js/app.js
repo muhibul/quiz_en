@@ -53,6 +53,12 @@ $(document).ready(function() {
     };
     
     window.showSubjectSelection = function() {
+        // Clear any existing timer
+        if (timerInterval) {
+            clearInterval(timerInterval);
+            timerInterval = null;
+        }
+        
         $('#quizContent').hide();
         $('#resultsSection').hide();
         $('#subjectSelection').show();
@@ -199,6 +205,12 @@ $(document).ready(function() {
     }
     
     function startTimer(minutes) {
+        // Clear any existing timer before starting a new one
+        if (timerInterval) {
+            clearInterval(timerInterval);
+            timerInterval = null;
+        }
+        
         timeRemaining = minutes * 60; // Convert to seconds
         
         updateTimerDisplay();
@@ -215,6 +227,7 @@ $(document).ready(function() {
             // Auto-submit when time runs out
             if (timeRemaining <= 0) {
                 clearInterval(timerInterval);
+                timerInterval = null;
                 autoSubmitQuiz();
             }
         }, 1000);
@@ -228,7 +241,10 @@ $(document).ready(function() {
     }
     
     function submitQuiz() {
-        clearInterval(timerInterval);
+        if (timerInterval) {
+            clearInterval(timerInterval);
+            timerInterval = null;
+        }
         calculateAndShowResults();
     }
     
