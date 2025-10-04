@@ -218,6 +218,23 @@
             background: #5a6268;
         }
         
+        .btn-secondary {
+            background: #6c757d;
+            border-color: #6c757d;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-secondary:hover {
+            background: #5a6268;
+            border-color: #5a6268;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
         .result-question-card {
             background: #f8f9fa;
             border-radius: 10px;
@@ -341,10 +358,13 @@
                     <!-- Questions will be dynamically inserted here -->
                 </div>
                 
-                <!-- Submit Button -->
+                <!-- Submit and Cancel Buttons -->
                 <div class="text-center mt-4">
-                    <button id="submitBtn" class="btn btn-primary btn-lg submit-btn">
+                    <button id="submitBtn" class="btn btn-primary btn-lg submit-btn me-3">
                         Submit Quiz
+                    </button>
+                    <button class="btn btn-secondary btn-lg" onclick="showSubjectSelection()">
+                        Cancel / ยกเลิก
                     </button>
                 </div>
             </div>
@@ -368,9 +388,14 @@
                     </div>
                 </div>
                 
-                <button class="btn btn-primary mt-4" onclick="location.reload()">
-                    Take Quiz Again
-                </button>
+                <div class="mt-4">
+                    <button class="btn btn-primary me-3" onclick="location.reload()">
+                        Take Quiz Again
+                    </button>
+                    <button class="btn btn-secondary" onclick="showSubjectSelection()">
+                        Back to Subjects / กลับไปเลือกวิชา
+                    </button>
+                </div>
             </div>
         </div>
     </div>
