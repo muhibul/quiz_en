@@ -492,6 +492,50 @@
             background: #ffc107;
             color: #333;
         }
+        
+        /* Scroll to Top Button */
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 1000;
+        }
+        
+        .scroll-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .scroll-to-top:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+        
+        .scroll-to-top:active {
+            transform: translateY(-1px);
+        }
+        
+        @media (max-width: 576px) {
+            .scroll-to-top {
+                bottom: 15px;
+                right: 15px;
+                width: 45px;
+                height: 45px;
+                font-size: 1.1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -577,6 +621,11 @@
         </div>
     </div>
 
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" title="Go to top">
+        ↑
+    </button>
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Bootstrap JS -->
@@ -585,6 +634,28 @@
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <!-- App JS -->
     <script src="js/app.js"></script>
+    
+    <!-- Scroll to Top Script -->
+    <script>
+        $(document).ready(function() {
+            // Show/hide scroll to top button based on scroll position
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 300) {
+                    $('#scrollToTop').addClass('show');
+                } else {
+                    $('#scrollToTop').removeClass('show');
+                }
+            });
+            
+            // Smooth scroll to top when button is clicked
+            $('#scrollToTop').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 600);
+                return false;
+            });
+        });
+    </script>
 </body>
 </html>
 
