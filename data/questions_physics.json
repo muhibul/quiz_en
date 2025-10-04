@@ -41,46 +41,6 @@
   },
   {
     "id": 6,
-    "topicId": 9,
-    "question": "What is potential energy?",
-    "options": ["½mv²", "mgh", "Fd", "Pt"],
-    "answer": 1,
-    "explanation": "พลังงานศักย์ (Potential Energy) คือพลังงานที่วัตถุมีเนื่องจากตำแหน่งหรือสถานะ มีสูตร PE = mgh โดยที่ m คือมวล g คือความเร่งเนื่องจากแรงโน้มถ่วง และ h คือความสูง"
-  },
-  {
-    "id": 7,
-    "topicId": 9,
-    "question": "What is friction?",
-    "options": ["Force that opposes motion", "Force that causes motion", "Energy stored in objects", "Speed of an object"],
-    "answer": 0,
-    "explanation": "แรงเสียดทาน (Friction) คือแรงที่ต้านการเคลื่อนที่ของวัตถุ เกิดขึ้นเมื่อพื้นผิวสองพื้นผิวสัมผัสกันและเคลื่อนที่สัมพันธ์กัน"
-  },
-  {
-    "id": 8,
-    "topicId": 9,
-    "question": "What is the unit of work?",
-    "options": ["Newton", "Joule", "Watt", "Pascal"],
-    "answer": 1,
-    "explanation": "หน่วยของงาน (Work) คือจูล (Joule) ซึ่งมีสัญลักษณ์เป็น J งานคือผลคูณของแรงและระยะทางในทิศทางของแรง"
-  },
-  {
-    "id": 9,
-    "topicId": 9,
-    "question": "What is power?",
-    "options": ["Work done", "Force applied", "Work done per unit time", "Distance traveled"],
-    "answer": 2,
-    "explanation": "กำลัง (Power) คืองานที่ทำต่อหน่วยเวลา มีสูตร P = W/t โดยที่ W คืองาน และ t คือเวลา หน่วยของกำลังคือวัตต์ (Watt)"
-  },
-  {
-    "id": 10,
-    "topicId": 9,
-    "question": "What is the law of conservation of momentum?",
-    "options": ["Momentum can be created", "Momentum can be destroyed", "Total momentum is constant", "Momentum increases with time"],
-    "answer": 2,
-    "explanation": "กฎการอนุรักษ์โมเมนตัมกล่าวว่า โมเมนตัมรวมของระบบที่ปิดจะคงที่เสมอ แม้ว่าจะมีการชนกันหรือการระเบิดเกิดขึ้น"
-  },
-  {
-    "id": 11,
     "topicId": 10,
     "question": "What is temperature?",
     "options": ["Amount of heat", "Average kinetic energy", "Total energy", "Pressure"],
@@ -88,7 +48,7 @@
     "explanation": "อุณหภูมิ (Temperature) คือการวัดพลังงานจลน์เฉลี่ยของอนุภาคในสสาร ยิ่งอุณหภูมิสูง อนุภาคยิ่งเคลื่อนที่เร็วขึ้น"
   },
   {
-    "id": 12,
+    "id": 7,
     "topicId": 10,
     "question": "What is heat?",
     "options": ["Temperature", "Energy transfer", "Mass", "Volume"],
@@ -96,7 +56,7 @@
     "explanation": "ความร้อน (Heat) คือการถ่ายเทพลังงานจากวัตถุที่มีอุณหภูมิสูงไปยังวัตถุที่มีอุณหภูมิต่ำกว่า ไม่ใช่อุณหภูมิเอง"
   },
   {
-    "id": 13,
+    "id": 8,
     "topicId": 10,
     "question": "What is the first law of thermodynamics?",
     "options": ["Energy cannot be created", "Energy cannot be destroyed", "Energy is conserved", "Heat flows from hot to cold"],
@@ -104,7 +64,7 @@
     "explanation": "กฎข้อที่ 1 ของอุณหพลศาสตร์กล่าวว่า พลังงานไม่สามารถสร้างหรือทำลายได้ แต่สามารถเปลี่ยนรูปได้ พลังงานรวมของระบบปิดจะคงที่"
   },
   {
-    "id": 14,
+    "id": 9,
     "topicId": 10,
     "question": "What is specific heat capacity?",
     "options": ["Heat per unit mass", "Heat per unit temperature", "Heat per unit mass per unit temperature", "Heat per unit volume"],
@@ -112,7 +72,7 @@
     "explanation": "ความจุความร้อนจำเพาะ (Specific Heat Capacity) คือปริมาณความร้อนที่ต้องใช้ในการเพิ่มอุณหภูมิของสาร 1 กิโลกรัม ขึ้น 1 องศาเซลเซียส"
   },
   {
-    "id": 15,
+    "id": 10,
     "topicId": 10,
     "question": "What is thermal expansion?",
     "options": ["Contraction with heat", "Expansion with heat", "No change with heat", "Random change"],
@@ -120,7 +80,7 @@
     "explanation": "การขยายตัวเนื่องจากความร้อน (Thermal Expansion) คือการที่วัตถุขยายตัวเมื่อได้รับความร้อน และหดตัวเมื่อสูญเสียความร้อน"
   },
   {
-    "id": 16,
+    "id": 11,
     "topicId": 11,
     "question": "What is electric current?",
     "options": ["Flow of electrons", "Flow of protons", "Flow of neutrons", "Static charge"],
@@ -128,7 +88,7 @@
     "explanation": "กระแสไฟฟ้า (Electric Current) คือการไหลของอิเล็กตรอนผ่านตัวนำไฟฟ้า มีหน่วยเป็นแอมแปร์ (A) และมีทิศทางจากขั้วบวกไปขั้วลบ"
   },
   {
-    "id": 17,
+    "id": 12,
     "topicId": 11,
     "question": "What is voltage?",
     "options": ["Current", "Resistance", "Electric potential difference", "Power"],
@@ -136,7 +96,7 @@
     "explanation": "แรงดันไฟฟ้า (Voltage) คือความต่างศักย์ไฟฟ้าระหว่างจุดสองจุด มีหน่วยเป็นโวลต์ (V) และเป็นแรงผลักดันให้กระแสไฟฟ้าไหล"
   },
   {
-    "id": 18,
+    "id": 13,
     "topicId": 11,
     "question": "What is resistance?",
     "options": ["Voltage", "Current", "Opposition to current flow", "Power"],
@@ -144,7 +104,7 @@
     "explanation": "ความต้านทาน (Resistance) คือการต้านการไหลของกระแสไฟฟ้า มีหน่วยเป็นโอห์ม (Ω) และขึ้นอยู่กับวัสดุและขนาดของตัวนำ"
   },
   {
-    "id": 19,
+    "id": 14,
     "topicId": 11,
     "question": "What is Ohm's Law?",
     "options": ["V = IR", "P = IV", "E = mc²", "F = ma"],
@@ -152,11 +112,51 @@
     "explanation": "กฎของโอห์ม (Ohm's Law) กล่าวว่า แรงดันไฟฟ้าเท่ากับผลคูณของกระแสไฟฟ้าและความต้านทาน (V = IR)"
   },
   {
-    "id": 20,
+    "id": 15,
     "topicId": 11,
     "question": "What is electric power?",
     "options": ["V = IR", "P = IV", "E = mc²", "F = ma"],
     "answer": 1,
     "explanation": "กำลังไฟฟ้า (Electric Power) คือพลังงานไฟฟ้าต่อหน่วยเวลา มีสูตร P = IV โดยที่ I คือกระแสไฟฟ้า และ V คือแรงดันไฟฟ้า"
+  },
+  {
+    "id": 16,
+    "topicId": 13,
+    "question": "What is a wave?",
+    "options": ["A particle", "A disturbance that travels through space", "A force", "Energy"],
+    "answer": 1,
+    "explanation": "คลื่น (Wave) คือการรบกวนที่เดินทางผ่านอวกาศและเวลา โดยไม่มีการเคลื่อนที่ของสสาร แต่มีการถ่ายเทพลังงาน"
+  },
+  {
+    "id": 17,
+    "topicId": 13,
+    "question": "What is the frequency of a wave?",
+    "options": ["Height of the wave", "Number of waves per second", "Speed of the wave", "Length of the wave"],
+    "answer": 1,
+    "explanation": "ความถี่ (Frequency) ของคลื่นคือจำนวนคลื่นที่ผ่านจุดหนึ่งในหนึ่งวินาที มีหน่วยเป็นเฮิรตซ์ (Hz)"
+  },
+  {
+    "id": 18,
+    "topicId": 13,
+    "question": "What is the wavelength?",
+    "options": ["Height of the wave", "Number of waves per second", "Distance between two peaks", "Speed of the wave"],
+    "answer": 2,
+    "explanation": "ความยาวคลื่น (Wavelength) คือระยะห่างระหว่างยอดคลื่นสองยอดที่ติดกัน หรือระยะห่างระหว่างจุดที่คลื่นซ้ำกัน"
+  },
+  {
+    "id": 19,
+    "topicId": 13,
+    "question": "What is the amplitude of a wave?",
+    "options": ["Height of the wave", "Number of waves per second", "Speed of the wave", "Length of the wave"],
+    "answer": 0,
+    "explanation": "แอมพลิจูด (Amplitude) ของคลื่นคือความสูงของคลื่นจากเส้นกึ่งกลางถึงยอดคลื่น แสดงถึงพลังงานของคลื่น"
+  },
+  {
+    "id": 20,
+    "topicId": 13,
+    "question": "What is the speed of light?",
+    "options": ["3 × 10⁶ m/s", "3 × 10⁸ m/s", "3 × 10¹⁰ m/s", "3 × 10¹² m/s"],
+    "answer": 1,
+    "explanation": "ความเร็วแสงในสุญญากาศคือ 3 × 10⁸ เมตรต่อวินาที หรือประมาณ 300,000 กิโลเมตรต่อวินาที"
   }
 ]

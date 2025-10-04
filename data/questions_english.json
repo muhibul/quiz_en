@@ -41,122 +41,122 @@
   },
   {
     "id": 6,
-    "topicId": 1,
-    "question": "My sister ___ in a hospital.",
-    "options": ["work", "works", "working", "worked"],
-    "answer": 1,
-    "explanation": "'My sister' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'works' เติม 's' ในกาลปัจจุบันธรรมดา นี่เป็นการบรรยายงาน/อาชีพปัจจุบันของเธอ"
+    "topicId": 3,
+    "question": "I ___ visit my grandparents tomorrow.",
+    "options": ["will", "would", "was", "am"],
+    "answer": 0,
+    "explanation": "'Tomorrow' ระบุเวลาในอนาคต เราใช้ 'will' + กริยาพื้นฐานเพื่อแสดงความตั้งใจหรือการคาดการณ์ในอนาคต"
   },
   {
     "id": 7,
-    "topicId": 1,
-    "question": "Dogs ___ bones.",
-    "options": ["likes", "like", "liking", "liked"],
-    "answer": 1,
-    "explanation": "'Dogs' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'like' โดยไม่เติม 's' นี่เป็นข้อความทั่วไปเกี่ยวกับสุนัขในกาลปัจจุบันธรรมดา"
+    "topicId": 3,
+    "question": "She ___ start her new job next week.",
+    "options": ["is", "was", "will", "were"],
+    "answer": 2,
+    "explanation": "'Next week' เป็นตัวบ่งชี้เวลาในอนาคต ต้องใช้ 'will' เพื่อสร้างกาลอนาคตธรรมดา"
   },
   {
     "id": 8,
-    "topicId": 1,
-    "question": "Water ___ at 100 degrees Celsius.",
-    "options": ["boil", "boils", "boiling", "boiled"],
-    "answer": 1,
-    "explanation": "'Water' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'boils' เติม 's' นี่เป็นความจริงทางวิทยาศาสตร์ ซึ่งใช้กาลปัจจุบันธรรมดา"
+    "topicId": 3,
+    "question": "They ___ to the beach next summer.",
+    "options": ["go", "went", "will go", "goes"],
+    "answer": 2,
+    "explanation": "'Next summer' ระบุเวลาในอนาคต 'Will go' เป็นโครงสร้างกาลอนาคตที่ถูกต้อง"
   },
   {
     "id": 9,
-    "topicId": 1,
-    "question": "The students ___ their books.",
-    "options": ["carries", "carry", "carrying", "carried"],
-    "answer": 1,
-    "explanation": "'The students' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'carry' โดยไม่เติม 's' นี่เป็นการบรรยายการกระทำในกาลปัจจุบันธรรมดา"
+    "topicId": 3,
+    "question": "We ___ a party next month.",
+    "options": ["having", "have", "will have", "had"],
+    "answer": 2,
+    "explanation": "'Next month' เป็นการแสดงออกถึงเวลาในอนาคต ดังนั้นเราต้องใช้ 'will have' เพื่อแสดงเหตุการณ์ที่วางแผนไว้ในอนาคต"
   },
   {
     "id": 10,
-    "topicId": 1,
-    "question": "She ___ her teeth twice a day.",
-    "options": ["brush", "brushes", "brushing", "brushed"],
-    "answer": 1,
-    "explanation": "'She' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'brushes' เติม 's' การกระทำประจำเช่น 'twice a day' ต้องใช้กาลปัจจุบันธรรมดา"
+    "topicId": 3,
+    "question": "It ___ rain tomorrow.",
+    "options": ["is", "was", "will", "were"],
+    "answer": 2,
+    "explanation": "'Tomorrow' ระบุเวลาในอนาคต 'Will' + กริยาพื้นฐาน ('will rain') ใช้เพื่อทำนายเกี่ยวกับสภาพอากาศในอนาคต"
   },
   {
     "id": 11,
-    "topicId": 1,
-    "question": "The teacher ___ English very well.",
-    "options": ["teach", "teaches", "teaching", "taught"],
-    "answer": 1,
-    "explanation": "'The teacher' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'teaches' เติม 's' นี่เป็นการบรรยายความสามารถในกาลปัจจุบันธรรมดา"
+    "topicId": 4,
+    "question": "He ___ dinner right now.",
+    "options": ["is cooking", "cook", "cooks", "cooked"],
+    "answer": 0,
+    "explanation": "'Right now' ระบุการกระทำที่เกิดขึ้นในขณะนี้ กาลปัจจุบันต่อเนื่อง (is/are + -ing) อธิบายการกระทำที่กำลังดำเนินอยู่ 'Is cooking' ถูกต้อง"
   },
   {
     "id": 12,
-    "topicId": 1,
-    "question": "Children ___ to play games.",
-    "options": ["likes", "like", "liking", "liked"],
-    "answer": 1,
-    "explanation": "'Children' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'like' โดยไม่เติม 's' นี่เป็นการบรรยายความชอบทั่วไปในกาลปัจจุบันธรรมดา"
+    "topicId": 4,
+    "question": "They ___ soccer at the moment.",
+    "options": ["play", "plays", "are playing", "played"],
+    "answer": 2,
+    "explanation": "'At the moment' สัญญาณการกระทำที่กำลังดำเนินอยู่ ใช้กาลปัจจุบันต่อเนื่อง 'are playing' สำหรับการกระทำที่เกิดขึ้นในขณะนี้"
   },
   {
     "id": 13,
-    "topicId": 1,
-    "question": "The bus ___ every hour.",
-    "options": ["arrive", "arrives", "arriving", "arrived"],
-    "answer": 1,
-    "explanation": "'The bus' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'arrives' เติม 's' การกระทำประจำเช่น 'every hour' ต้องใช้กาลปัจจุบันธรรมดา"
+    "topicId": 4,
+    "question": "I ___ a book right now.",
+    "options": ["read", "reads", "am reading", "reading"],
+    "answer": 2,
+    "explanation": "'Right now' ต้องใช้กาลปัจจุบันต่อเนื่อง กับ 'I' เราใช้ 'am reading' เพื่อแสดงการกระทำที่เกิดขึ้นในขณะนี้"
   },
   {
     "id": 14,
-    "topicId": 1,
-    "question": "Birds ___ in the sky.",
-    "options": ["flys", "fly", "flying", "flew"],
-    "answer": 1,
-    "explanation": "'Birds' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'fly' โดยไม่เติม 's' นี่เป็นการบรรยายพฤติกรรมทั่วไปในกาลปัจจุบันธรรมดา"
+    "topicId": 4,
+    "question": "She ___ on the phone at the moment.",
+    "options": ["talks", "talk", "is talking", "talked"],
+    "answer": 2,
+    "explanation": "'At the moment' ระบุกาลปัจจุบันต่อเนื่อง 'Is talking' แสดงการกระทำที่กำลังดำเนินอยู่ในขณะนี้"
   },
   {
     "id": 15,
-    "topicId": 1,
-    "question": "The computer ___ very fast.",
-    "options": ["work", "works", "working", "worked"],
-    "answer": 1,
-    "explanation": "'The computer' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'works' เติม 's' นี่เป็นการบรรยายคุณสมบัติในกาลปัจจุบันธรรมดา"
+    "topicId": 4,
+    "question": "We ___ for the bus now.",
+    "options": ["wait", "waits", "are waiting", "waited"],
+    "answer": 2,
+    "explanation": "'Now' สัญญาณกาลปัจจุบันต่อเนื่อง 'Are waiting' แสดงการกระทำที่กำลังดำเนินอยู่ในขณะปัจจุบันอย่างถูกต้อง"
   },
   {
     "id": 16,
-    "topicId": 1,
-    "question": "The flowers ___ beautiful.",
-    "options": ["looks", "look", "looking", "looked"],
-    "answer": 1,
-    "explanation": "'The flowers' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'look' โดยไม่เติม 's' นี่เป็นการบรรยายลักษณะในกาลปัจจุบันธรรมดา"
+    "topicId": 5,
+    "question": "You ___ wear a seatbelt while driving.",
+    "options": ["must", "might", "could", "would"],
+    "answer": 0,
+    "explanation": "'Must' แสดงความจำเป็นหรือข้อบังคับอย่างเข้มงวด การสวมเข็มขัดนิรภัยเป็นข้อกำหนดทางกฎหมาย ดังนั้น 'must' เป็นกริยาช่วยที่ถูกต้อง"
   },
   {
     "id": 17,
-    "topicId": 1,
-    "question": "The baby ___ when hungry.",
-    "options": ["cry", "cries", "crying", "cried"],
+    "topicId": 5,
+    "question": "She ___ speak three languages.",
+    "options": ["must", "can", "should", "would"],
     "answer": 1,
-    "explanation": "'The baby' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'cries' เติม 's' นี่เป็นการบรรยายพฤติกรรมทั่วไปในกาลปัจจุบันธรรมดา"
+    "explanation": "'Can' แสดงความสามารถ หมายความว่าเธอมีความสามารถในการพูดสามภาษา 'Can' ใช้สำหรับทักษะและความสามารถ"
   },
   {
     "id": 18,
-    "topicId": 1,
-    "question": "The students ___ homework every day.",
-    "options": ["does", "do", "doing", "did"],
-    "answer": 1,
-    "explanation": "'The students' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'do' โดยไม่เติม 's' การกระทำประจำเช่น 'every day' ต้องใช้กาลปัจจุบันธรรมดา"
+    "topicId": 5,
+    "question": "We ___ go to the party if we finish work early.",
+    "options": ["must", "can", "might", "would"],
+    "answer": 2,
+    "explanation": "'Might' แสดงความเป็นไปได้หรือความไม่แน่นอน หมายความว่ามีโอกาสที่เราจะไป แต่มันไม่แน่นอน"
   },
   {
     "id": 19,
-    "topicId": 1,
-    "question": "The clock ___ twelve times.",
-    "options": ["strike", "strikes", "striking", "struck"],
+    "topicId": 5,
+    "question": "You ___ study harder to pass the exam.",
+    "options": ["can", "should", "might", "could"],
     "answer": 1,
-    "explanation": "'The clock' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'strikes' เติม 's' นี่เป็นการบรรยายการทำงานของนาฬิกาในกาลปัจจุบันธรรมดา"
+    "explanation": "'Should' ให้คำแนะนำหรือข้อเสนอแนะ แนะนำว่าการเรียนหนักขึ้นเป็นความคิดที่ดีเพื่อให้บรรลุเป้าหมายในการสอบผ่าน"
   },
   {
     "id": 20,
-    "topicId": 1,
-    "question": "The children ___ in the park.",
-    "options": ["plays", "play", "playing", "played"],
-    "answer": 1,
-    "explanation": "'The children' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'play' โดยไม่เติม 's' นี่เป็นการบรรยายการกระทำในกาลปัจจุบันธรรมดา"
+    "topicId": 5,
+    "question": "___ you please pass me the salt?",
+    "options": ["Must", "Should", "Could", "Might"],
+    "answer": 2,
+    "explanation": "'Could' ใช้สำหรับคำขอที่สุภาพ 'Could you please...' เป็นวิธีที่สุภาพในการขอให้ใครทำอะไร"
   }
 ]

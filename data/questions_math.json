@@ -41,46 +41,6 @@
   },
   {
     "id": 6,
-    "topicId": 15,
-    "question": "What is the value of √(25 + 144)?",
-    "options": ["13", "17", "19", "15"],
-    "answer": 0,
-    "explanation": "√(25 + 144) = √169 = 13 เพราะว่า 13² = 169"
-  },
-  {
-    "id": 7,
-    "topicId": 15,
-    "question": "What is the coefficient of x in 5x + 3?",
-    "options": ["5", "3", "x", "8"],
-    "answer": 0,
-    "explanation": "สัมประสิทธิ์ (coefficient) ของ x ในพจน์ 5x + 3 คือ 5 ซึ่งเป็นตัวเลขที่คูณกับตัวแปร x"
-  },
-  {
-    "id": 8,
-    "topicId": 15,
-    "question": "What is the constant term in 2x² - 3x + 7?",
-    "options": ["2", "-3", "7", "x²"],
-    "answer": 2,
-    "explanation": "พจน์คงที่ (constant term) ในพหุนาม 2x² - 3x + 7 คือ 7 ซึ่งเป็นพจน์ที่ไม่มีตัวแปร"
-  },
-  {
-    "id": 9,
-    "topicId": 15,
-    "question": "What is the degree of the polynomial 3x³ - 2x + 1?",
-    "options": ["1", "2", "3", "4"],
-    "answer": 2,
-    "explanation": "ดีกรี (degree) ของพหุนามคือเลขยกกำลังสูงสุดของตัวแปร ในพหุนาม 3x³ - 2x + 1 ดีกรีคือ 3"
-  },
-  {
-    "id": 10,
-    "topicId": 15,
-    "question": "What is the value of (-2)³?",
-    "options": ["-8", "8", "-6", "6"],
-    "answer": 0,
-    "explanation": "(-2)³ = (-2) × (-2) × (-2) = 4 × (-2) = -8 เมื่อยกกำลังคี่ของจำนวนลบจะได้ผลลัพธ์เป็นลบ"
-  },
-  {
-    "id": 11,
     "topicId": 16,
     "question": "What is the area of a rectangle with length 8 cm and width 5 cm?",
     "options": ["13 cm²", "26 cm²", "40 cm²", "35 cm²"],
@@ -88,7 +48,7 @@
     "explanation": "พื้นที่สี่เหลี่ยมผืนผ้า = ความยาว × ความกว้าง = 8 × 5 = 40 ตารางเซนติเมตร"
   },
   {
-    "id": 12,
+    "id": 7,
     "topicId": 16,
     "question": "What is the perimeter of a square with side length 6 cm?",
     "options": ["12 cm", "24 cm", "36 cm", "18 cm"],
@@ -96,7 +56,7 @@
     "explanation": "เส้นรอบรูปสี่เหลี่ยมจัตุรัส = 4 × ความยาวด้าน = 4 × 6 = 24 เซนติเมตร"
   },
   {
-    "id": 13,
+    "id": 8,
     "topicId": 16,
     "question": "What is the area of a triangle with base 10 cm and height 8 cm?",
     "options": ["18 cm²", "40 cm²", "80 cm²", "20 cm²"],
@@ -104,7 +64,7 @@
     "explanation": "พื้นที่สามเหลี่ยม = ½ × ฐาน × สูง = ½ × 10 × 8 = 40 ตารางเซนติเมตร"
   },
   {
-    "id": 14,
+    "id": 9,
     "topicId": 16,
     "question": "What is the circumference of a circle with radius 7 cm? (Use π ≈ 3.14)",
     "options": ["21.98 cm", "43.96 cm", "153.86 cm", "14 cm"],
@@ -112,7 +72,7 @@
     "explanation": "เส้นรอบวง = 2πr = 2 × 3.14 × 7 = 43.96 เซนติเมตร"
   },
   {
-    "id": 15,
+    "id": 10,
     "topicId": 16,
     "question": "What is the area of a circle with diameter 10 cm? (Use π ≈ 3.14)",
     "options": ["31.4 cm²", "78.5 cm²", "314 cm²", "157 cm²"],
@@ -120,7 +80,7 @@
     "explanation": "รัศมี = เส้นผ่านศูนย์กลาง ÷ 2 = 10 ÷ 2 = 5 cm พื้นที่ = πr² = 3.14 × 5² = 3.14 × 25 = 78.5 ตารางเซนติเมตร"
   },
   {
-    "id": 16,
+    "id": 11,
     "topicId": 17,
     "question": "What is sin(45°)?",
     "options": ["1/2", "√2/2", "√3/2", "1"],
@@ -128,7 +88,7 @@
     "explanation": "sin(45°) = √2/2 ≈ 0.707 ในสามเหลี่ยมมุมฉากที่มีมุม 45°-45°-90° ด้านตรงข้ามมุม 45° = ด้านประชิดมุม 45°"
   },
   {
-    "id": 17,
+    "id": 12,
     "topicId": 17,
     "question": "What is cos(30°)?",
     "options": ["1/2", "√2/2", "√3/2", "1"],
@@ -136,7 +96,7 @@
     "explanation": "cos(30°) = √3/2 ≈ 0.866 ในสามเหลี่ยมมุมฉากที่มีมุม 30°-60°-90° อัตราส่วนของด้านประชิดมุม 30° ต่อด้านตรงข้ามมุมฉากคือ √3:2"
   },
   {
-    "id": 18,
+    "id": 13,
     "topicId": 17,
     "question": "What is tan(60°)?",
     "options": ["1", "√3", "1/√3", "√2"],
@@ -144,7 +104,7 @@
     "explanation": "tan(60°) = √3 ≈ 1.732 ในสามเหลี่ยมมุมฉากที่มีมุม 30°-60°-90° อัตราส่วนของด้านตรงข้ามมุม 60° ต่อด้านประชิดมุม 60° คือ √3:1"
   },
   {
-    "id": 19,
+    "id": 14,
     "topicId": 17,
     "question": "In a right triangle, if one angle is 30°, what is the other acute angle?",
     "options": ["45°", "60°", "90°", "120°"],
@@ -152,11 +112,51 @@
     "explanation": "ในสามเหลี่ยมมุมฉาก มุมทั้งสามรวมกันได้ 180° ดังนั้นมุมแหลมอีกมุมหนึ่ง = 180° - 90° - 30° = 60°"
   },
   {
-    "id": 20,
+    "id": 15,
     "topicId": 17,
     "question": "What is the hypotenuse of a right triangle with legs 3 cm and 4 cm?",
     "options": ["5 cm", "7 cm", "12 cm", "25 cm"],
     "answer": 0,
     "explanation": "ใช้ทฤษฎีบทพีทาโกรัส: c² = a² + b² = 3² + 4² = 9 + 16 = 25 ดังนั้น c = √25 = 5 เซนติเมตร"
+  },
+  {
+    "id": 16,
+    "topicId": 19,
+    "question": "What is the mean of the numbers 2, 4, 6, 8, 10?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 1,
+    "explanation": "ค่าเฉลี่ย = ผลรวมของตัวเลข ÷ จำนวนตัวเลข = (2+4+6+8+10) ÷ 5 = 30 ÷ 5 = 6"
+  },
+  {
+    "id": 17,
+    "topicId": 19,
+    "question": "What is the median of the numbers 1, 3, 5, 7, 9?",
+    "options": ["3", "5", "7", "9"],
+    "answer": 1,
+    "explanation": "ค่ามัธยฐานคือค่าที่อยู่ตรงกลางเมื่อเรียงลำดับจากน้อยไปมาก ในชุดข้อมูล 1, 3, 5, 7, 9 ค่ามัธยฐานคือ 5"
+  },
+  {
+    "id": 18,
+    "topicId": 19,
+    "question": "What is the mode of the numbers 2, 3, 3, 4, 5, 3?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 1,
+    "explanation": "ฐานนิยมคือค่าที่ปรากฏบ่อยที่สุด ในชุดข้อมูล 2, 3, 3, 4, 5, 3 ตัวเลข 3 ปรากฏ 3 ครั้ง ซึ่งมากที่สุด"
+  },
+  {
+    "id": 19,
+    "topicId": 20,
+    "question": "What is the probability of rolling a 6 on a fair die?",
+    "options": ["1/6", "1/3", "1/2", "1"],
+    "answer": 0,
+    "explanation": "ความน่าจะเป็นของการทอยลูกเต๋าได้ 6 = จำนวนผลลัพธ์ที่ต้องการ ÷ จำนวนผลลัพธ์ทั้งหมด = 1 ÷ 6 = 1/6"
+  },
+  {
+    "id": 20,
+    "topicId": 20,
+    "question": "What is the probability of drawing a red card from a standard deck?",
+    "options": ["1/4", "1/2", "1/3", "2/3"],
+    "answer": 1,
+    "explanation": "ในสำรับไพ่มาตรฐานมีไพ่แดง 26 ใบ (หัวใจและข้าวหลามตัด) และไพ่ทั้งหมด 52 ใบ ดังนั้นความน่าจะเป็น = 26/52 = 1/2"
   }
 ]
