@@ -12,22 +12,39 @@
         body {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            padding: 20px 0;
+            padding: 10px 0;
         }
         
         .quiz-container {
             background: white;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            padding: 30px;
-            margin-bottom: 30px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 576px) {
+            body {
+                padding: 5px 0;
+            }
+            
+            .quiz-container {
+                padding: 15px;
+                margin-bottom: 15px;
+                border-radius: 10px;
+            }
+            
+            .container {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
         }
         
         .timer-box {
             background: #f8f9fa;
             border-radius: 10px;
             padding: 15px;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             border-left: 5px solid #667eea;
         }
         
@@ -37,6 +54,17 @@
             color: #667eea;
         }
         
+        @media (max-width: 576px) {
+            .timer-box {
+                padding: 12px;
+                margin-bottom: 15px;
+            }
+            
+            .timer-display {
+                font-size: 1.5rem;
+            }
+        }
+        
         .timer-warning {
             color: #dc3545;
         }
@@ -44,8 +72,8 @@
         .question-card {
             background: #f8f9fa;
             border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
             border-left: 4px solid #667eea;
             transition: all 0.3s ease;
         }
@@ -58,31 +86,54 @@
             background: #667eea;
             color: white;
             border-radius: 50%;
-            width: 35px;
-            height: 35px;
+            width: 30px;
+            height: 30px;
             display: inline-flex;
             align-items: center;
             justify-content: center;
             font-weight: bold;
-            margin-right: 10px;
+            margin-right: 8px;
+            font-size: 0.9rem;
         }
         
         .question-text {
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 500;
             color: #333;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+        
+        @media (max-width: 576px) {
+            .question-card {
+                padding: 12px;
+                margin-bottom: 12px;
+            }
+            
+            .question-number {
+                width: 28px;
+                height: 28px;
+                margin-right: 6px;
+                font-size: 0.8rem;
+            }
+            
+            .question-text {
+                font-size: 0.95rem;
+                margin-bottom: 10px;
+            }
         }
         
         .option-label {
             display: block;
-            padding: 12px 15px;
-            margin-bottom: 10px;
+            padding: 10px 12px;
+            margin-bottom: 8px;
             background: white;
             border: 2px solid #e0e0e0;
             border-radius: 8px;
             cursor: pointer;
             transition: all 0.3s ease;
+            font-size: 0.95rem;
+            line-height: 1.3;
         }
         
         .option-label:hover {
@@ -91,7 +142,19 @@
         }
         
         .option-label input[type="radio"] {
-            margin-right: 10px;
+            margin-right: 8px;
+        }
+        
+        @media (max-width: 576px) {
+            .option-label {
+                padding: 8px 10px;
+                margin-bottom: 6px;
+                font-size: 0.9rem;
+            }
+            
+            .option-label input[type="radio"] {
+                margin-right: 6px;
+            }
         }
         
         .option-label input[type="radio"]:checked + span {
@@ -102,8 +165,8 @@
         .submit-btn {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             border: none;
-            padding: 15px 40px;
-            font-size: 1.2rem;
+            padding: 12px 30px;
+            font-size: 1.1rem;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
             transition: transform 0.3s ease;
@@ -114,24 +177,53 @@
             box-shadow: 0 7px 20px rgba(0,0,0,0.3);
         }
         
+        @media (max-width: 576px) {
+            .submit-btn {
+                padding: 10px 20px;
+                font-size: 1rem;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+        
         .results-container {
             background: white;
             border-radius: 15px;
-            padding: 40px;
+            padding: 30px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
             text-align: center;
         }
         
+        @media (max-width: 576px) {
+            .results-container {
+                padding: 20px;
+            }
+        }
+        
         .score-display {
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: bold;
             color: #667eea;
-            margin: 20px 0;
+            margin: 15px 0;
+        }
+        
+        @media (max-width: 576px) {
+            .score-display {
+                font-size: 2.5rem;
+                margin: 12px 0;
+            }
         }
         
         .results-message {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+        
+        @media (max-width: 576px) {
+            .results-message {
+                font-size: 1.1rem;
+                margin-bottom: 12px;
+            }
         }
         
         .loading-spinner {
@@ -143,10 +235,20 @@
             display: inline-block;
             background: #e3f2fd;
             color: #1976d2;
-            padding: 5px 12px;
+            padding: 4px 10px;
             border-radius: 15px;
-            font-size: 0.85rem;
-            margin-left: 10px;
+            font-size: 0.8rem;
+            margin-left: 8px;
+        }
+        
+        @media (max-width: 576px) {
+            .topic-badge {
+                padding: 3px 8px;
+                font-size: 0.75rem;
+                margin-left: 6px;
+                margin-top: 4px;
+                display: block;
+            }
         }
         
         #subjectSelection {
@@ -168,8 +270,8 @@
         .subject-card {
             background: white;
             border-radius: 15px;
-            padding: 30px;
-            margin-bottom: 20px;
+            padding: 20px;
+            margin-bottom: 15px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
             cursor: pointer;
@@ -183,35 +285,61 @@
         }
         
         .subject-icon {
-            font-size: 3rem;
-            margin-bottom: 15px;
+            font-size: 2.5rem;
+            margin-bottom: 12px;
         }
         
         .subject-name {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: bold;
             color: #333;
-            margin-bottom: 5px;
+            margin-bottom: 4px;
         }
         
         .subject-name-thai {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             color: #667eea;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
         
         .subject-description {
             color: #666;
-            font-size: 0.95rem;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 576px) {
+            .subject-card {
+                padding: 15px;
+                margin-bottom: 12px;
+            }
+            
+            .subject-icon {
+                font-size: 2rem;
+                margin-bottom: 10px;
+            }
+            
+            .subject-name {
+                font-size: 1.1rem;
+            }
+            
+            .subject-name-thai {
+                font-size: 1rem;
+                margin-bottom: 6px;
+            }
+            
+            .subject-description {
+                font-size: 0.85rem;
+            }
         }
         
         .back-to-subjects {
             background: #6c757d;
             border: none;
-            padding: 10px 20px;
+            padding: 8px 16px;
             border-radius: 8px;
             color: white;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
         }
         
         .back-to-subjects:hover {
@@ -221,8 +349,8 @@
         .btn-secondary {
             background: #6c757d;
             border-color: #6c757d;
-            padding: 15px 30px;
-            font-size: 1.1rem;
+            padding: 10px 20px;
+            font-size: 1rem;
             border-radius: 10px;
             box-shadow: 0 3px 10px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
@@ -235,11 +363,25 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
         
+        @media (max-width: 576px) {
+            .back-to-subjects {
+                padding: 6px 12px;
+                font-size: 0.8rem;
+                margin-bottom: 12px;
+            }
+            
+            .btn-secondary {
+                padding: 8px 16px;
+                font-size: 0.9rem;
+                width: 100%;
+            }
+        }
+        
         .result-question-card {
             background: #f8f9fa;
             border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
             border-left: 4px solid #6c757d;
         }
         
@@ -258,12 +400,28 @@
             background: #fffbf0;
         }
         
+        @media (max-width: 576px) {
+            .result-question-card {
+                padding: 12px;
+                margin-bottom: 12px;
+            }
+        }
+        
         .answer-option {
-            padding: 10px 15px;
-            margin: 8px 0;
+            padding: 8px 12px;
+            margin: 6px 0;
             border-radius: 6px;
             background: white;
             border: 2px solid #e0e0e0;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 576px) {
+            .answer-option {
+                padding: 6px 10px;
+                margin: 4px 0;
+                font-size: 0.85rem;
+            }
         }
         
         .answer-option.user-answer {
@@ -287,18 +445,37 @@
         .explanation-box {
             background: #e3f2fd;
             border-left: 4px solid #2196f3;
-            padding: 15px;
-            margin-top: 15px;
+            padding: 12px;
+            margin-top: 12px;
             border-radius: 6px;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+        
+        @media (max-width: 576px) {
+            .explanation-box {
+                padding: 10px;
+                margin-top: 10px;
+                font-size: 0.85rem;
+            }
         }
         
         .status-badge {
             display: inline-block;
-            padding: 5px 15px;
+            padding: 4px 12px;
             border-radius: 20px;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             font-weight: 600;
-            margin-left: 10px;
+            margin-left: 8px;
+        }
+        
+        @media (max-width: 576px) {
+            .status-badge {
+                padding: 3px 10px;
+                font-size: 0.75rem;
+                margin-left: 6px;
+                margin-top: 4px;
+            }
         }
         
         .status-badge.correct {
@@ -322,8 +499,8 @@
         <!-- Subject Selection -->
         <div id="subjectSelection">
             <div class="quiz-container">
-                <h1 class="text-center mb-4" style="color: #667eea;">📚 Choose Your Subject</h1>
-                <p class="text-center mb-5 text-muted">เลือกวิชาที่ต้องการทำแบบทดสอบ</p>
+                <h1 class="text-center mb-3" style="color: #667eea;">📚 Choose Your Subject</h1>
+                <p class="text-center mb-4 text-muted">เลือกวิชาที่ต้องการทำแบบทดสอบ</p>
                 
                 <div class="row" id="subjectsContainer">
                     <!-- Subjects will be dynamically inserted here -->
@@ -345,7 +522,7 @@
                 <button class="btn back-to-subjects" onclick="showSubjectSelection()">
                     ← Back to Subjects / กลับไปเลือกวิชา
                 </button>
-                <h1 class="text-center mb-4" id="quizTitle" style="color: #667eea;">📝 Quiz</h1>
+                <h1 class="text-center mb-3" id="quizTitle" style="color: #667eea;">📝 Quiz</h1>
                 
                 <!-- Timer -->
                 <div class="timer-box text-center">
