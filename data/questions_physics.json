@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "topicId": 9,
+    "question": "What is the SI unit of force?",
+    "options": ["Joule", "Newton", "Watt", "Pascal"],
+    "answer": 1,
+    "explanation": "หน่วย SI ของแรงคือ นิวตัน (Newton) ซึ่งมีสัญลักษณ์เป็น N ตั้งชื่อตามเซอร์ไอแซก นิวตัน ผู้ค้นพบกฎการเคลื่อนที่"
+  },
+  {
+    "id": 2,
+    "topicId": 9,
+    "question": "What is Newton's First Law?",
+    "options": ["F = ma", "Every action has an equal and opposite reaction", "An object at rest stays at rest", "Energy cannot be created or destroyed"],
+    "answer": 2,
+    "explanation": "กฎข้อที่ 1 ของนิวตันกล่าวว่า วัตถุที่อยู่นิ่งจะยังคงอยู่นิ่ง และวัตถุที่เคลื่อนที่ด้วยความเร็วคงที่จะยังคงเคลื่อนที่ด้วยความเร็วคงที่ เว้นแต่จะมีแรงภายนอกมากระทำ"
+  },
+  {
+    "id": 3,
+    "topicId": 9,
+    "question": "What is the acceleration due to gravity on Earth?",
+    "options": ["9.8 m/s²", "10 m/s²", "8.9 m/s²", "11 m/s²"],
+    "answer": 0,
+    "explanation": "ความเร่งเนื่องจากแรงโน้มถ่วงบนโลกมีค่า 9.8 m/s² หรือประมาณ 10 m/s² สำหรับการคำนวณแบบคร่าวๆ ค่านี้ใช้สำหรับวัตถุที่ตกอย่างอิสระ"
+  },
+  {
+    "id": 4,
+    "topicId": 9,
+    "question": "What is momentum?",
+    "options": ["Mass × Velocity", "Force × Distance", "Mass × Acceleration", "Energy × Time"],
+    "answer": 0,
+    "explanation": "โมเมนตัม (Momentum) คือผลคูณของมวลและความเร็ว (p = mv) โมเมนตัมเป็นปริมาณเวกเตอร์ที่มีทิศทางเดียวกับความเร็ว"
+  },
+  {
+    "id": 5,
+    "topicId": 9,
+    "question": "What is kinetic energy?",
+    "options": ["½mv²", "mgh", "Fd", "Pt"],
+    "answer": 0,
+    "explanation": "พลังงานจลน์ (Kinetic Energy) คือพลังงานที่วัตถุมีเนื่องจากความเร็ว มีสูตร KE = ½mv² โดยที่ m คือมวล และ v คือความเร็ว"
+  },
+  {
+    "id": 6,
+    "topicId": 9,
+    "question": "What is potential energy?",
+    "options": ["½mv²", "mgh", "Fd", "Pt"],
+    "answer": 1,
+    "explanation": "พลังงานศักย์ (Potential Energy) คือพลังงานที่วัตถุมีเนื่องจากตำแหน่งหรือสถานะ มีสูตร PE = mgh โดยที่ m คือมวล g คือความเร่งเนื่องจากแรงโน้มถ่วง และ h คือความสูง"
+  },
+  {
+    "id": 7,
+    "topicId": 9,
+    "question": "What is friction?",
+    "options": ["Force that opposes motion", "Force that causes motion", "Energy stored in objects", "Speed of an object"],
+    "answer": 0,
+    "explanation": "แรงเสียดทาน (Friction) คือแรงที่ต้านการเคลื่อนที่ของวัตถุ เกิดขึ้นเมื่อพื้นผิวสองพื้นผิวสัมผัสกันและเคลื่อนที่สัมพันธ์กัน"
+  },
+  {
+    "id": 8,
+    "topicId": 9,
+    "question": "What is the unit of work?",
+    "options": ["Newton", "Joule", "Watt", "Pascal"],
+    "answer": 1,
+    "explanation": "หน่วยของงาน (Work) คือจูล (Joule) ซึ่งมีสัญลักษณ์เป็น J งานคือผลคูณของแรงและระยะทางในทิศทางของแรง"
+  },
+  {
+    "id": 9,
+    "topicId": 9,
+    "question": "What is power?",
+    "options": ["Work done", "Force applied", "Work done per unit time", "Distance traveled"],
+    "answer": 2,
+    "explanation": "กำลัง (Power) คืองานที่ทำต่อหน่วยเวลา มีสูตร P = W/t โดยที่ W คืองาน และ t คือเวลา หน่วยของกำลังคือวัตต์ (Watt)"
+  },
+  {
+    "id": 10,
+    "topicId": 9,
+    "question": "What is the law of conservation of momentum?",
+    "options": ["Momentum can be created", "Momentum can be destroyed", "Total momentum is constant", "Momentum increases with time"],
+    "answer": 2,
+    "explanation": "กฎการอนุรักษ์โมเมนตัมกล่าวว่า โมเมนตัมรวมของระบบที่ปิดจะคงที่เสมอ แม้ว่าจะมีการชนกันหรือการระเบิดเกิดขึ้น"
+  },
+  {
+    "id": 11,
+    "topicId": 10,
+    "question": "What is temperature?",
+    "options": ["Amount of heat", "Average kinetic energy", "Total energy", "Pressure"],
+    "answer": 1,
+    "explanation": "อุณหภูมิ (Temperature) คือการวัดพลังงานจลน์เฉลี่ยของอนุภาคในสสาร ยิ่งอุณหภูมิสูง อนุภาคยิ่งเคลื่อนที่เร็วขึ้น"
+  },
+  {
+    "id": 12,
+    "topicId": 10,
+    "question": "What is heat?",
+    "options": ["Temperature", "Energy transfer", "Mass", "Volume"],
+    "answer": 1,
+    "explanation": "ความร้อน (Heat) คือการถ่ายเทพลังงานจากวัตถุที่มีอุณหภูมิสูงไปยังวัตถุที่มีอุณหภูมิต่ำกว่า ไม่ใช่อุณหภูมิเอง"
+  },
+  {
+    "id": 13,
+    "topicId": 10,
+    "question": "What is the first law of thermodynamics?",
+    "options": ["Energy cannot be created", "Energy cannot be destroyed", "Energy is conserved", "Heat flows from hot to cold"],
+    "answer": 2,
+    "explanation": "กฎข้อที่ 1 ของอุณหพลศาสตร์กล่าวว่า พลังงานไม่สามารถสร้างหรือทำลายได้ แต่สามารถเปลี่ยนรูปได้ พลังงานรวมของระบบปิดจะคงที่"
+  },
+  {
+    "id": 14,
+    "topicId": 10,
+    "question": "What is specific heat capacity?",
+    "options": ["Heat per unit mass", "Heat per unit temperature", "Heat per unit mass per unit temperature", "Heat per unit volume"],
+    "answer": 2,
+    "explanation": "ความจุความร้อนจำเพาะ (Specific Heat Capacity) คือปริมาณความร้อนที่ต้องใช้ในการเพิ่มอุณหภูมิของสาร 1 กิโลกรัม ขึ้น 1 องศาเซลเซียส"
+  },
+  {
+    "id": 15,
+    "topicId": 10,
+    "question": "What is thermal expansion?",
+    "options": ["Contraction with heat", "Expansion with heat", "No change with heat", "Random change"],
+    "answer": 1,
+    "explanation": "การขยายตัวเนื่องจากความร้อน (Thermal Expansion) คือการที่วัตถุขยายตัวเมื่อได้รับความร้อน และหดตัวเมื่อสูญเสียความร้อน"
+  },
+  {
+    "id": 16,
+    "topicId": 11,
+    "question": "What is electric current?",
+    "options": ["Flow of electrons", "Flow of protons", "Flow of neutrons", "Static charge"],
+    "answer": 0,
+    "explanation": "กระแสไฟฟ้า (Electric Current) คือการไหลของอิเล็กตรอนผ่านตัวนำไฟฟ้า มีหน่วยเป็นแอมแปร์ (A) และมีทิศทางจากขั้วบวกไปขั้วลบ"
+  },
+  {
+    "id": 17,
+    "topicId": 11,
+    "question": "What is voltage?",
+    "options": ["Current", "Resistance", "Electric potential difference", "Power"],
+    "answer": 2,
+    "explanation": "แรงดันไฟฟ้า (Voltage) คือความต่างศักย์ไฟฟ้าระหว่างจุดสองจุด มีหน่วยเป็นโวลต์ (V) และเป็นแรงผลักดันให้กระแสไฟฟ้าไหล"
+  },
+  {
+    "id": 18,
+    "topicId": 11,
+    "question": "What is resistance?",
+    "options": ["Voltage", "Current", "Opposition to current flow", "Power"],
+    "answer": 2,
+    "explanation": "ความต้านทาน (Resistance) คือการต้านการไหลของกระแสไฟฟ้า มีหน่วยเป็นโอห์ม (Ω) และขึ้นอยู่กับวัสดุและขนาดของตัวนำ"
+  },
+  {
+    "id": 19,
+    "topicId": 11,
+    "question": "What is Ohm's Law?",
+    "options": ["V = IR", "P = IV", "E = mc²", "F = ma"],
+    "answer": 0,
+    "explanation": "กฎของโอห์ม (Ohm's Law) กล่าวว่า แรงดันไฟฟ้าเท่ากับผลคูณของกระแสไฟฟ้าและความต้านทาน (V = IR)"
+  },
+  {
+    "id": 20,
+    "topicId": 11,
+    "question": "What is electric power?",
+    "options": ["V = IR", "P = IV", "E = mc²", "F = ma"],
+    "answer": 1,
+    "explanation": "กำลังไฟฟ้า (Electric Power) คือพลังงานไฟฟ้าต่อหน่วยเวลา มีสูตร P = IV โดยที่ I คือกระแสไฟฟ้า และ V คือแรงดันไฟฟ้า"
+  }
+]
+

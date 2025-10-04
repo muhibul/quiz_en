@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "topicId": 1,
+    "question": "He ___ to school every day.",
+    "options": ["go", "goes", "going", "gone"],
+    "answer": 1,
+    "explanation": "ในกาลปัจจุบันธรรมดา เราใช้ 'goes' (เติม 's') สำหรับประธานเอกพจน์บุรุษที่ 3 (he, she, it) การกระทำ 'every day' บ่งบอกถึงการกระทำที่เป็นนิสัย ต้องใช้กาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 2,
+    "topicId": 1,
+    "question": "They ___ English fluently.",
+    "options": ["speaks", "speak", "speaking", "spoke"],
+    "answer": 1,
+    "explanation": "กับประธานพหูพจน์เช่น 'they' เราใช้รูปกริยาพื้นฐานโดยไม่เติม 's' 'Speak' ถูกต้องสำหรับกาลปัจจุบันธรรมดากับประธานพหูพจน์"
+  },
+  {
+    "id": 3,
+    "topicId": 1,
+    "question": "She ___ her homework every evening.",
+    "options": ["do", "does", "doing", "did"],
+    "answer": 1,
+    "explanation": "'Does' เป็นรูปที่ถูกต้องสำหรับประธานเอกพจน์บุรุษที่ 3 (she) ในกาลปัจจุบันธรรมดา การกระทำประจำเช่น 'every evening' ต้องใช้กาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 4,
+    "topicId": 1,
+    "question": "We ___ coffee in the morning.",
+    "options": ["drinks", "drink", "drinking", "drank"],
+    "answer": 1,
+    "explanation": "'We' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'drink' โดยไม่เติม 's' นี่เป็นการบรรยายการกระทำที่เป็นนิสัยในกาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 5,
+    "topicId": 1,
+    "question": "The sun ___ in the east.",
+    "options": ["rise", "rises", "rising", "rose"],
+    "answer": 1,
+    "explanation": "'The sun' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'rises' เติม 's' นี่เป็นความจริงทั่วไป ซึ่งใช้กาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 6,
+    "topicId": 1,
+    "question": "My sister ___ in a hospital.",
+    "options": ["work", "works", "working", "worked"],
+    "answer": 1,
+    "explanation": "'My sister' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'works' เติม 's' ในกาลปัจจุบันธรรมดา นี่เป็นการบรรยายงาน/อาชีพปัจจุบันของเธอ"
+  },
+  {
+    "id": 7,
+    "topicId": 1,
+    "question": "Dogs ___ bones.",
+    "options": ["likes", "like", "liking", "liked"],
+    "answer": 1,
+    "explanation": "'Dogs' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'like' โดยไม่เติม 's' นี่เป็นข้อความทั่วไปเกี่ยวกับสุนัขในกาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 8,
+    "topicId": 1,
+    "question": "Water ___ at 100 degrees Celsius.",
+    "options": ["boil", "boils", "boiling", "boiled"],
+    "answer": 1,
+    "explanation": "'Water' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'boils' เติม 's' นี่เป็นความจริงทางวิทยาศาสตร์ ซึ่งใช้กาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 9,
+    "topicId": 1,
+    "question": "The students ___ their books.",
+    "options": ["carries", "carry", "carrying", "carried"],
+    "answer": 1,
+    "explanation": "'The students' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'carry' โดยไม่เติม 's' นี่เป็นการบรรยายการกระทำในกาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 10,
+    "topicId": 1,
+    "question": "She ___ her teeth twice a day.",
+    "options": ["brush", "brushes", "brushing", "brushed"],
+    "answer": 1,
+    "explanation": "'She' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'brushes' เติม 's' การกระทำประจำเช่น 'twice a day' ต้องใช้กาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 11,
+    "topicId": 1,
+    "question": "The teacher ___ English very well.",
+    "options": ["teach", "teaches", "teaching", "taught"],
+    "answer": 1,
+    "explanation": "'The teacher' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'teaches' เติม 's' นี่เป็นการบรรยายความสามารถในกาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 12,
+    "topicId": 1,
+    "question": "Children ___ to play games.",
+    "options": ["likes", "like", "liking", "liked"],
+    "answer": 1,
+    "explanation": "'Children' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'like' โดยไม่เติม 's' นี่เป็นการบรรยายความชอบทั่วไปในกาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 13,
+    "topicId": 1,
+    "question": "The bus ___ every hour.",
+    "options": ["arrive", "arrives", "arriving", "arrived"],
+    "answer": 1,
+    "explanation": "'The bus' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'arrives' เติม 's' การกระทำประจำเช่น 'every hour' ต้องใช้กาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 14,
+    "topicId": 1,
+    "question": "Birds ___ in the sky.",
+    "options": ["flys", "fly", "flying", "flew"],
+    "answer": 1,
+    "explanation": "'Birds' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'fly' โดยไม่เติม 's' นี่เป็นการบรรยายพฤติกรรมทั่วไปในกาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 15,
+    "topicId": 1,
+    "question": "The computer ___ very fast.",
+    "options": ["work", "works", "working", "worked"],
+    "answer": 1,
+    "explanation": "'The computer' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'works' เติม 's' นี่เป็นการบรรยายคุณสมบัติในกาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 16,
+    "topicId": 1,
+    "question": "The flowers ___ beautiful.",
+    "options": ["looks", "look", "looking", "looked"],
+    "answer": 1,
+    "explanation": "'The flowers' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'look' โดยไม่เติม 's' นี่เป็นการบรรยายลักษณะในกาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 17,
+    "topicId": 1,
+    "question": "The baby ___ when hungry.",
+    "options": ["cry", "cries", "crying", "cried"],
+    "answer": 1,
+    "explanation": "'The baby' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'cries' เติม 's' นี่เป็นการบรรยายพฤติกรรมทั่วไปในกาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 18,
+    "topicId": 1,
+    "question": "The students ___ homework every day.",
+    "options": ["does", "do", "doing", "did"],
+    "answer": 1,
+    "explanation": "'The students' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'do' โดยไม่เติม 's' การกระทำประจำเช่น 'every day' ต้องใช้กาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 19,
+    "topicId": 1,
+    "question": "The clock ___ twelve times.",
+    "options": ["strike", "strikes", "striking", "struck"],
+    "answer": 1,
+    "explanation": "'The clock' เป็นประธานเอกพจน์บุรุษที่ 3 ต้องใช้ 'strikes' เติม 's' นี่เป็นการบรรยายการทำงานของนาฬิกาในกาลปัจจุบันธรรมดา"
+  },
+  {
+    "id": 20,
+    "topicId": 1,
+    "question": "The children ___ in the park.",
+    "options": ["plays", "play", "playing", "played"],
+    "answer": 1,
+    "explanation": "'The children' เป็นประธานพหูพจน์ ดังนั้นเราใช้ 'play' โดยไม่เติม 's' นี่เป็นการบรรยายการกระทำในกาลปัจจุบันธรรมดา"
+  }
+]
+

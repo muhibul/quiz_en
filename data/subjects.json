@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "English",
+    "nameThai": "ภาษาอังกฤษ",
+    "description": "English Grammar Quiz",
+    "descriptionThai": "แบบทดสอบไวยากรณ์ภาษาอังกฤษ",
+    "icon": "📝"
+  },
+  {
+    "id": 2,
+    "name": "Physics",
+    "nameThai": "ฟิสิกส์",
+    "description": "Physics Quiz",
+    "descriptionThai": "แบบทดสอบฟิสิกส์",
+    "icon": "⚡"
+  },
+  {
+    "id": 3,
+    "name": "Math",
+    "nameThai": "คณิตศาสตร์",
+    "description": "Mathematics Quiz",
+    "descriptionThai": "แบบทดสอบคณิตศาสตร์",
+    "icon": "🔢"
+  }
+]
+

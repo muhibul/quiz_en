@@ -1,25 +1,81 @@
 $(document).ready(function() {
     let config = {};
+    let subjects = [];
     let topics = [];
     let allQuestions = [];
     let selectedQuestions = [];
     let timerInterval;
     let timeRemaining = 0;
+    let selectedSubject = null;
     
     // Initialize EmailJS (Optional - replace with your EmailJS credentials)
     // emailjs.init("YOUR_PUBLIC_KEY");
     
-    // Load all data and initialize quiz
-    loadQuizData();
+    // Load subjects and show selection
+    loadSubjects();
+    
+    function loadSubjects() {
+        $.getJSON('data/subjects.json')
+            .done(function(subjectsData) {
+                subjects = subjectsData;
+                displaySubjects();
+            })
+            .fail(function(error) {
+                console.error('Error loading subjects:', error);
+                $('#subjectSelection').html('<div class="alert alert-danger">Error loading subjects. Please refresh the page.</div>');
+            });
+    }
+    
+    function displaySubjects() {
+        const container = $('#subjectsContainer');
+        container.empty();
+        
+        subjects.forEach(subject => {
+            const subjectHTML = `
+                <div class="col-md-4 mb-4">
+                    <div class="subject-card text-center" onclick="selectSubject(${subject.id})">
+                        <div class="subject-icon">${subject.icon}</div>
+                        <div class="subject-name">${subject.name}</div>
+                        <div class="subject-name-thai">${subject.nameThai}</div>
+                        <div class="subject-description">${subject.descriptionThai}</div>
+                    </div>
+                </div>
+            `;
+            container.append(subjectHTML);
+        });
+    }
+    
+    window.selectSubject = function(subjectId) {
+        selectedSubject = subjects.find(s => s.id === subjectId);
+        $('#subjectSelection').hide();
+        $('#loading').show();
+        loadQuizData();
+    };
+    
+    window.showSubjectSelection = function() {
+        $('#quizContent').hide();
+        $('#resultsSection').hide();
+        $('#subjectSelection').show();
+        selectedSubject = null;
+    };
     
     function loadQuizData() {
-        console.log('Starting to load quiz data...');
+        console.log('Starting to load quiz data for subject:', selectedSubject.name);
+        
+        // Determine which questions file to load based on subject
+        let questionsFile = '';
+        switch(selectedSubject.id) {
+            case 1: questionsFile = 'data/questions_english.json'; break;
+            case 2: questionsFile = 'data/questions_physics.json'; break;
+            case 3: questionsFile = 'data/questions_math.json'; break;
+            default: questionsFile = 'data/questions_english.json';
+        }
         
         // Load all JSON files
         $.when(
             $.getJSON('data/config.json'),
             $.getJSON('data/topics.json'),
-            $.getJSON('data/questions.json')
+            $.getJSON(questionsFile)
         ).done(function(configData, topicsData, questionsData) {
             console.log('Data loaded successfully!');
             config = configData[0];
@@ -50,8 +106,11 @@ $(document).ready(function() {
     }
     
     function initializeQuiz() {
-        // Filter unlocked topics
-        const unlockedTopics = topics.filter(topic => !topic.locked);
+        // Update quiz title
+        $('#quizTitle').html(`${selectedSubject.icon} ${selectedSubject.name} Quiz / ${selectedSubject.nameThai}`);
+        
+        // Filter unlocked topics for selected subject
+        const unlockedTopics = topics.filter(topic => !topic.locked && topic.subjectId === selectedSubject.id);
         const unlockedTopicIds = unlockedTopics.map(topic => topic.id);
         
         // Get questions from unlocked topics only
@@ -111,7 +170,7 @@ $(document).ready(function() {
         
         selectedQuestions.forEach((question, index) => {
             const topic = topics.find(t => t.id === question.topicId);
-            const topicName = topic ? topic.name : 'Unknown';
+            const topicName = topic ? `${topic.name} / ${topic.nameThai}` : 'Unknown';
             
             const questionHTML = `
                 <div class="question-card" data-question-id="${question.id}">
@@ -246,7 +305,7 @@ $(document).ready(function() {
         userAnswers.forEach((item, index) => {
             const question = selectedQuestions[index];
             const topic = topics.find(t => t.id === question.topicId);
-            const topicName = topic ? topic.name : 'Unknown';
+            const topicName = topic ? `${topic.name} / ${topic.nameThai}` : 'Unknown';
             
             let statusClass = '';
             let statusBadge = '';

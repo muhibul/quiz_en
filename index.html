@@ -149,8 +149,12 @@
             margin-left: 10px;
         }
         
-        #loading {
+        #subjectSelection {
             display: block;
+        }
+        
+        #loading {
+            display: none;
         }
         
         #quizContent {
@@ -159,6 +163,59 @@
         
         #resultsSection {
             display: none;
+        }
+        
+        .subject-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 3px solid transparent;
+        }
+        
+        .subject-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+        
+        .subject-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        
+        .subject-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .subject-name-thai {
+            font-size: 1.2rem;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .subject-description {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        
+        .back-to-subjects {
+            background: #6c757d;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        
+        .back-to-subjects:hover {
+            background: #5a6268;
         }
         
         .result-question-card {
@@ -245,6 +302,18 @@
 </head>
 <body>
     <div class="container">
+        <!-- Subject Selection -->
+        <div id="subjectSelection">
+            <div class="quiz-container">
+                <h1 class="text-center mb-4" style="color: #667eea;">📚 Choose Your Subject</h1>
+                <p class="text-center mb-5 text-muted">เลือกวิชาที่ต้องการทำแบบทดสอบ</p>
+                
+                <div class="row" id="subjectsContainer">
+                    <!-- Subjects will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+        
         <!-- Loading Spinner -->
         <div id="loading" class="loading-spinner">
             <div class="spinner-border text-light" role="status" style="width: 3rem; height: 3rem;">
@@ -256,7 +325,10 @@
         <!-- Quiz Content -->
         <div id="quizContent">
             <div class="quiz-container">
-                <h1 class="text-center mb-4" style="color: #667eea;">📝 English Grammar Quiz</h1>
+                <button class="btn back-to-subjects" onclick="showSubjectSelection()">
+                    ← Back to Subjects / กลับไปเลือกวิชา
+                </button>
+                <h1 class="text-center mb-4" id="quizTitle" style="color: #667eea;">📝 Quiz</h1>
                 
                 <!-- Timer -->
                 <div class="timer-box text-center">

@@ -1,11 +1,142 @@
 [
-  { "id": 1, "name": "Present Simple Tense", "locked": false },
-  { "id": 2, "name": "Past Tense", "locked": true },
-  { "id": 3, "name": "Future Tense", "locked": false },
-  { "id": 4, "name": "Present Continuous", "locked": false },
-  { "id": 5, "name": "Modal Verbs", "locked": false },
-  { "id": 6, "name": "Conditionals", "locked": true },
-  { "id": 7, "name": "Passive Voice", "locked": false },
-  { "id": 8, "name": "Prepositions", "locked": true }
+  {
+    "id": 1,
+    "subjectId": 1,
+    "name": "Present Simple Tense",
+    "nameThai": "กาลปัจจุบันธรรมดา",
+    "locked": false
+  },
+  {
+    "id": 2,
+    "subjectId": 1,
+    "name": "Past Tense",
+    "nameThai": "กาลอดีต",
+    "locked": true
+  },
+  {
+    "id": 3,
+    "subjectId": 1,
+    "name": "Future Tense",
+    "nameThai": "กาลอนาคต",
+    "locked": false
+  },
+  {
+    "id": 4,
+    "subjectId": 1,
+    "name": "Present Continuous",
+    "nameThai": "กาลปัจจุบันต่อเนื่อง",
+    "locked": false
+  },
+  {
+    "id": 5,
+    "subjectId": 1,
+    "name": "Modal Verbs",
+    "nameThai": "กริยาช่วย",
+    "locked": false
+  },
+  {
+    "id": 6,
+    "subjectId": 1,
+    "name": "Conditionals",
+    "nameThai": "ประโยคเงื่อนไข",
+    "locked": true
+  },
+  {
+    "id": 7,
+    "subjectId": 1,
+    "name": "Passive Voice",
+    "nameThai": "ประโยคกรรมวาจก",
+    "locked": false
+  },
+  {
+    "id": 8,
+    "subjectId": 1,
+    "name": "Prepositions",
+    "nameThai": "คำบุพบท",
+    "locked": false
+  },
+  {
+    "id": 9,
+    "subjectId": 2,
+    "name": "Mechanics",
+    "nameThai": "กลศาสตร์",
+    "locked": false
+  },
+  {
+    "id": 10,
+    "subjectId": 2,
+    "name": "Thermodynamics",
+    "nameThai": "อุณหพลศาสตร์",
+    "locked": false
+  },
+  {
+    "id": 11,
+    "subjectId": 2,
+    "name": "Electricity",
+    "nameThai": "ไฟฟ้า",
+    "locked": false
+  },
+  {
+    "id": 12,
+    "subjectId": 2,
+    "name": "Optics",
+    "nameThai": "ทัศนศาสตร์",
+    "locked": true
+  },
+  {
+    "id": 13,
+    "subjectId": 2,
+    "name": "Waves",
+    "nameThai": "คลื่น",
+    "locked": false
+  },
+  {
+    "id": 14,
+    "subjectId": 2,
+    "name": "Modern Physics",
+    "nameThai": "ฟิสิกส์สมัยใหม่",
+    "locked": true
+  },
+  {
+    "id": 15,
+    "subjectId": 3,
+    "name": "Algebra",
+    "nameThai": "พีชคณิต",
+    "locked": false
+  },
+  {
+    "id": 16,
+    "subjectId": 3,
+    "name": "Geometry",
+    "nameThai": "เรขาคณิต",
+    "locked": false
+  },
+  {
+    "id": 17,
+    "subjectId": 3,
+    "name": "Trigonometry",
+    "nameThai": "ตรีโกณมิติ",
+    "locked": false
+  },
+  {
+    "id": 18,
+    "subjectId": 3,
+    "name": "Calculus",
+    "nameThai": "แคลคูลัส",
+    "locked": true
+  },
+  {
+    "id": 19,
+    "subjectId": 3,
+    "name": "Statistics",
+    "nameThai": "สถิติ",
+    "locked": false
+  },
+  {
+    "id": 20,
+    "subjectId": 3,
+    "name": "Probability",
+    "nameThai": "ความน่าจะเป็น",
+    "locked": false
+  }
 ]
-
