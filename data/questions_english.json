@@ -41,6 +41,46 @@
   },
   {
     "id": 6,
+    "topicId": 2,
+    "question": "She ___ a movie yesterday.",
+    "options": ["watch", "watched", "watching", "watches"],
+    "answer": 1,
+    "explanation": "'Yesterday' เป็นตัวบ่งชี้เวลาในอดีต ดังนั้นเราต้องใช้รูปอดีตธรรมดา 'watched' กริยาปกติเติม '-ed' ในกาลอดีต"
+  },
+  {
+    "id": 7,
+    "topicId": 2,
+    "question": "I ___ to Paris last summer.",
+    "options": ["go", "goes", "went", "going"],
+    "answer": 2,
+    "explanation": "'Last summer' ระบุเวลาในอดีต ต้องใช้กาลอดีต 'Went' เป็นรูปอดีตที่ไม่ปกติของ 'go'"
+  },
+  {
+    "id": 8,
+    "topicId": 2,
+    "question": "They ___ the game last night.",
+    "options": ["win", "wins", "won", "winning"],
+    "answer": 2,
+    "explanation": "'Last night' สัญญาณเวลาในอดีต 'Won' เป็นรูปอดีตที่ไม่ปกติของ 'win'"
+  },
+  {
+    "id": 9,
+    "topicId": 2,
+    "question": "He ___ his homework yesterday.",
+    "options": ["finish", "finishes", "finished", "finishing"],
+    "answer": 2,
+    "explanation": "'Yesterday' ระบุเวลาในอดีต ต้องใช้รูปอดีต 'finished' กริยาปกติเติม '-ed' ในกาลอดีต"
+  },
+  {
+    "id": 10,
+    "topicId": 2,
+    "question": "We ___ dinner at 7 PM yesterday.",
+    "options": ["eat", "eats", "ate", "eating"],
+    "answer": 2,
+    "explanation": "'Yesterday' และ 'at 7 PM' ระบุเวลาในอดีต 'Ate' เป็นรูปอดีตที่ไม่ปกติของ 'eat'"
+  },
+  {
+    "id": 11,
     "topicId": 3,
     "question": "I ___ visit my grandparents tomorrow.",
     "options": ["will", "would", "was", "am"],
@@ -48,7 +88,7 @@
     "explanation": "'Tomorrow' ระบุเวลาในอนาคต เราใช้ 'will' + กริยาพื้นฐานเพื่อแสดงความตั้งใจหรือการคาดการณ์ในอนาคต"
   },
   {
-    "id": 7,
+    "id": 12,
     "topicId": 3,
     "question": "She ___ start her new job next week.",
     "options": ["is", "was", "will", "were"],
@@ -56,7 +96,7 @@
     "explanation": "'Next week' เป็นตัวบ่งชี้เวลาในอนาคต ต้องใช้ 'will' เพื่อสร้างกาลอนาคตธรรมดา"
   },
   {
-    "id": 8,
+    "id": 13,
     "topicId": 3,
     "question": "They ___ to the beach next summer.",
     "options": ["go", "went", "will go", "goes"],
@@ -64,7 +104,7 @@
     "explanation": "'Next summer' ระบุเวลาในอนาคต 'Will go' เป็นโครงสร้างกาลอนาคตที่ถูกต้อง"
   },
   {
-    "id": 9,
+    "id": 14,
     "topicId": 3,
     "question": "We ___ a party next month.",
     "options": ["having", "have", "will have", "had"],
@@ -72,7 +112,7 @@
     "explanation": "'Next month' เป็นการแสดงออกถึงเวลาในอนาคต ดังนั้นเราต้องใช้ 'will have' เพื่อแสดงเหตุการณ์ที่วางแผนไว้ในอนาคต"
   },
   {
-    "id": 10,
+    "id": 15,
     "topicId": 3,
     "question": "It ___ rain tomorrow.",
     "options": ["is", "was", "will", "were"],
@@ -80,7 +120,7 @@
     "explanation": "'Tomorrow' ระบุเวลาในอนาคต 'Will' + กริยาพื้นฐาน ('will rain') ใช้เพื่อทำนายเกี่ยวกับสภาพอากาศในอนาคต"
   },
   {
-    "id": 11,
+    "id": 16,
     "topicId": 4,
     "question": "He ___ dinner right now.",
     "options": ["is cooking", "cook", "cooks", "cooked"],
@@ -88,7 +128,7 @@
     "explanation": "'Right now' ระบุการกระทำที่เกิดขึ้นในขณะนี้ กาลปัจจุบันต่อเนื่อง (is/are + -ing) อธิบายการกระทำที่กำลังดำเนินอยู่ 'Is cooking' ถูกต้อง"
   },
   {
-    "id": 12,
+    "id": 17,
     "topicId": 4,
     "question": "They ___ soccer at the moment.",
     "options": ["play", "plays", "are playing", "played"],
@@ -96,7 +136,7 @@
     "explanation": "'At the moment' สัญญาณการกระทำที่กำลังดำเนินอยู่ ใช้กาลปัจจุบันต่อเนื่อง 'are playing' สำหรับการกระทำที่เกิดขึ้นในขณะนี้"
   },
   {
-    "id": 13,
+    "id": 18,
     "topicId": 4,
     "question": "I ___ a book right now.",
     "options": ["read", "reads", "am reading", "reading"],
@@ -104,7 +144,7 @@
     "explanation": "'Right now' ต้องใช้กาลปัจจุบันต่อเนื่อง กับ 'I' เราใช้ 'am reading' เพื่อแสดงการกระทำที่เกิดขึ้นในขณะนี้"
   },
   {
-    "id": 14,
+    "id": 19,
     "topicId": 4,
     "question": "She ___ on the phone at the moment.",
     "options": ["talks", "talk", "is talking", "talked"],
@@ -112,7 +152,7 @@
     "explanation": "'At the moment' ระบุกาลปัจจุบันต่อเนื่อง 'Is talking' แสดงการกระทำที่กำลังดำเนินอยู่ในขณะนี้"
   },
   {
-    "id": 15,
+    "id": 20,
     "topicId": 4,
     "question": "We ___ for the bus now.",
     "options": ["wait", "waits", "are waiting", "waited"],
@@ -120,7 +160,7 @@
     "explanation": "'Now' สัญญาณกาลปัจจุบันต่อเนื่อง 'Are waiting' แสดงการกระทำที่กำลังดำเนินอยู่ในขณะปัจจุบันอย่างถูกต้อง"
   },
   {
-    "id": 16,
+    "id": 21,
     "topicId": 5,
     "question": "You ___ wear a seatbelt while driving.",
     "options": ["must", "might", "could", "would"],
@@ -128,7 +168,7 @@
     "explanation": "'Must' แสดงความจำเป็นหรือข้อบังคับอย่างเข้มงวด การสวมเข็มขัดนิรภัยเป็นข้อกำหนดทางกฎหมาย ดังนั้น 'must' เป็นกริยาช่วยที่ถูกต้อง"
   },
   {
-    "id": 17,
+    "id": 22,
     "topicId": 5,
     "question": "She ___ speak three languages.",
     "options": ["must", "can", "should", "would"],
@@ -136,7 +176,7 @@
     "explanation": "'Can' แสดงความสามารถ หมายความว่าเธอมีความสามารถในการพูดสามภาษา 'Can' ใช้สำหรับทักษะและความสามารถ"
   },
   {
-    "id": 18,
+    "id": 23,
     "topicId": 5,
     "question": "We ___ go to the party if we finish work early.",
     "options": ["must", "can", "might", "would"],
@@ -144,7 +184,7 @@
     "explanation": "'Might' แสดงความเป็นไปได้หรือความไม่แน่นอน หมายความว่ามีโอกาสที่เราจะไป แต่มันไม่แน่นอน"
   },
   {
-    "id": 19,
+    "id": 24,
     "topicId": 5,
     "question": "You ___ study harder to pass the exam.",
     "options": ["can", "should", "might", "could"],
@@ -152,11 +192,131 @@
     "explanation": "'Should' ให้คำแนะนำหรือข้อเสนอแนะ แนะนำว่าการเรียนหนักขึ้นเป็นความคิดที่ดีเพื่อให้บรรลุเป้าหมายในการสอบผ่าน"
   },
   {
-    "id": 20,
+    "id": 25,
     "topicId": 5,
     "question": "___ you please pass me the salt?",
     "options": ["Must", "Should", "Could", "Might"],
     "answer": 2,
     "explanation": "'Could' ใช้สำหรับคำขอที่สุภาพ 'Could you please...' เป็นวิธีที่สุภาพในการขอให้ใครทำอะไร"
+  },
+  {
+    "id": 26,
+    "topicId": 6,
+    "question": "If it rains, we ___ stay home.",
+    "options": ["will", "would", "can", "should"],
+    "answer": 0,
+    "explanation": "นี่คือประโยคเงื่อนไขแบบที่ 1 (เงื่อนไขจริง/น่าจะเป็น) โครงสร้างคือ: If + ปัจจุบันธรรมดา, will + กริยาพื้นฐาน 'Will' แสดงผลลัพธ์ในอนาคตที่น่าจะเป็น"
+  },
+  {
+    "id": 27,
+    "topicId": 6,
+    "question": "If I ___ rich, I would travel the world.",
+    "options": ["am", "was", "were", "will be"],
+    "answer": 2,
+    "explanation": "ประโยคเงื่อนไขแบบที่ 2 (ไม่จริง/สมมติ) ใช้ 'If + อดีตธรรมดา, would + กริยาพื้นฐาน' กับ 'I' เราใช้ 'were' (ไม่ใช่ 'was') ในประโยคเงื่อนไขที่เป็นทางการ"
+  },
+  {
+    "id": 28,
+    "topicId": 6,
+    "question": "If you ___ hard, you will succeed.",
+    "options": ["work", "worked", "works", "working"],
+    "answer": 0,
+    "explanation": "นี่คือประโยคเงื่อนไขแบบที่ 1 ใช้ 'If + ปัจจุบันธรรมดา, will + กริยาพื้นฐาน' 'Work' เป็นรูปปัจจุบันธรรมดาที่ถูกต้อง"
+  },
+  {
+    "id": 29,
+    "topicId": 6,
+    "question": "If I ___ you, I would accept the offer.",
+    "options": ["am", "was", "were", "will be"],
+    "answer": 2,
+    "explanation": "ประโยคเงื่อนไขแบบที่ 2 ใช้ 'If + อดีตธรรมดา, would + กริยาพื้นฐาน' กับ 'I' เราใช้ 'were' ในประโยคเงื่อนไขที่เป็นทางการ"
+  },
+  {
+    "id": 30,
+    "topicId": 6,
+    "question": "If she ___ time, she will help us.",
+    "options": ["has", "had", "have", "will have"],
+    "answer": 0,
+    "explanation": "ประโยคเงื่อนไขแบบที่ 1 ใช้ 'If + ปัจจุบันธรรมดา, will + กริยาพื้นฐาน' 'Has' เป็นรูปปัจจุบันธรรมดาที่ถูกต้องสำหรับประธานเอกพจน์"
+  },
+  {
+    "id": 31,
+    "topicId": 7,
+    "question": "The book ___ by millions of people.",
+    "options": ["reads", "is read", "read", "reading"],
+    "answer": 1,
+    "explanation": "หนังสือได้รับผลกระทบจากการกระทำ (ถูกอ่าน) ดังนั้นเราต้องใช้กรรมวาจก กาลปัจจุบันกรรมวาจกธรรมดาใช้ 'is/are + กริยาช่อง 3': 'is read'"
+  },
+  {
+    "id": 32,
+    "topicId": 7,
+    "question": "The house ___ last year.",
+    "options": ["built", "was built", "is built", "building"],
+    "answer": 1,
+    "explanation": "บ้านได้รับผลกระทบจากการกระทำในอดีต กาลอดีตกรรมวาจกธรรมดาใช้ 'was/were + กริยาช่อง 3': 'was built'"
+  },
+  {
+    "id": 33,
+    "topicId": 7,
+    "question": "English ___ all over the world.",
+    "options": ["speaks", "is spoken", "spoke", "speaking"],
+    "answer": 1,
+    "explanation": "ภาษาอังกฤษเป็นวัตถุของการกระทำ (คนพูดมัน) กาลปัจจุบันกรรมวาจกธรรมดา 'is spoken' แสดงความจริงทั่วไปเกี่ยวกับภาษาอังกฤษ"
+  },
+  {
+    "id": 34,
+    "topicId": 7,
+    "question": "The car ___ every week.",
+    "options": ["washes", "is washed", "washed", "washing"],
+    "answer": 1,
+    "explanation": "รถยนต์ได้รับผลกระทบจากการกระทำล้าง กาลปัจจุบันกรรมวาจกธรรมดา 'is washed' อธิบายการกระทำที่เกิดขึ้นเป็นประจำและซ้ำๆ"
+  },
+  {
+    "id": 35,
+    "topicId": 7,
+    "question": "The letter ___ yesterday.",
+    "options": ["sends", "is sent", "was sent", "sending"],
+    "answer": 2,
+    "explanation": "จดหมายได้รับผลกระทบจากการกระทำในอดีต ('yesterday') กาลอดีตกรรมวาจกธรรมดา 'was sent' ใช้ was/were + กริยาช่อง 3"
+  },
+  {
+    "id": 36,
+    "topicId": 8,
+    "question": "She is interested ___ learning French.",
+    "options": ["on", "in", "at", "for"],
+    "answer": 1,
+    "explanation": "คำคุณศัพท์ 'interested' จะตามด้วยบุพบท 'in' เสมอ นี่เป็นคำที่ใช้ร่วมกันอย่างแน่นอนในภาษาอังกฤษ"
+  },
+  {
+    "id": 37,
+    "topicId": 8,
+    "question": "He arrived ___ the airport on time.",
+    "options": ["in", "on", "at", "to"],
+    "answer": 2,
+    "explanation": "เราใช้ 'at' สำหรับจุดเฉพาะหรือสถานที่เช่น สนามบิน สถานี หรืออาคารเฉพาะ 'Arrived at the airport' เป็นวลีที่ถูกต้อง"
+  },
+  {
+    "id": 38,
+    "topicId": 8,
+    "question": "We live ___ a small town.",
+    "options": ["on", "in", "at", "by"],
+    "answer": 1,
+    "explanation": "เราใช้ 'in' สำหรับเมือง ประเทศ และประเทศ 'In a small town' ระบุว่าอยู่ภายในหรือภายในขอบเขตของเมือง"
+  },
+  {
+    "id": 39,
+    "topicId": 8,
+    "question": "The meeting is ___ Monday.",
+    "options": ["in", "at", "on", "by"],
+    "answer": 2,
+    "explanation": "เราใช้ 'on' กับวันในสัปดาห์ 'On Monday' เป็นบุพบทมาตรฐานสำหรับวันเฉพาะ"
+  },
+  {
+    "id": 40,
+    "topicId": 8,
+    "question": "She is good ___ mathematics.",
+    "options": ["in", "on", "at", "for"],
+    "answer": 2,
+    "explanation": "คำคุณศัพท์ 'good' จะตามด้วย 'at' เมื่อพูดถึงทักษะหรือวิชา 'Good at mathematics' เป็นคำที่ใช้ร่วมกันอย่างถูกต้อง"
   }
 ]

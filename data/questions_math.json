@@ -121,6 +121,46 @@
   },
   {
     "id": 16,
+    "topicId": 18,
+    "question": "What is the derivative of x²?",
+    "options": ["x", "2x", "x²", "2x²"],
+    "answer": 1,
+    "explanation": "อนุพันธ์ของ x² คือ 2x ใช้กฎกำลัง: ถ้า f(x) = xⁿ แล้ว f'(x) = nxⁿ⁻¹ ดังนั้น (x²)' = 2x¹ = 2x"
+  },
+  {
+    "id": 17,
+    "topicId": 18,
+    "question": "What is the derivative of 3x + 5?",
+    "options": ["3", "3x", "3x + 5", "8"],
+    "answer": 0,
+    "explanation": "อนุพันธ์ของ 3x + 5 คือ 3 อนุพันธ์ของ 3x คือ 3 และอนุพันธ์ของค่าคงที่ 5 คือ 0 ดังนั้นผลรวมคือ 3 + 0 = 3"
+  },
+  {
+    "id": 18,
+    "topicId": 18,
+    "question": "What is the integral of 2x?",
+    "options": ["x²", "x² + C", "2x²", "x² + 2x"],
+    "answer": 1,
+    "explanation": "อินทิกรัลของ 2x คือ x² + C โดยที่ C คือค่าคงที่การอินทิเกรต ใช้กฎกำลังย้อนกลับ: ∫xⁿ dx = xⁿ⁺¹/(n+1) + C"
+  },
+  {
+    "id": 19,
+    "topicId": 18,
+    "question": "What is the derivative of sin(x)?",
+    "options": ["cos(x)", "-cos(x)", "sin(x)", "-sin(x)"],
+    "answer": 0,
+    "explanation": "อนุพันธ์ของ sin(x) คือ cos(x) นี่เป็นกฎพื้นฐานของแคลคูลัสสำหรับฟังก์ชันตรีโกณมิติ"
+  },
+  {
+    "id": 20,
+    "topicId": 18,
+    "question": "What is the derivative of eˣ?",
+    "options": ["eˣ", "xeˣ", "eˣ/x", "ln(x)"],
+    "answer": 0,
+    "explanation": "อนุพันธ์ของ eˣ คือ eˣ นี่เป็นคุณสมบัติพิเศษของฟังก์ชันเลขชี้กำลังธรรมชาติที่อนุพันธ์ของมันเท่ากับตัวมันเอง"
+  },
+  {
+    "id": 21,
     "topicId": 19,
     "question": "What is the mean of the numbers 2, 4, 6, 8, 10?",
     "options": ["5", "6", "7", "8"],
@@ -128,7 +168,7 @@
     "explanation": "ค่าเฉลี่ย = ผลรวมของตัวเลข ÷ จำนวนตัวเลข = (2+4+6+8+10) ÷ 5 = 30 ÷ 5 = 6"
   },
   {
-    "id": 17,
+    "id": 22,
     "topicId": 19,
     "question": "What is the median of the numbers 1, 3, 5, 7, 9?",
     "options": ["3", "5", "7", "9"],
@@ -136,7 +176,7 @@
     "explanation": "ค่ามัธยฐานคือค่าที่อยู่ตรงกลางเมื่อเรียงลำดับจากน้อยไปมาก ในชุดข้อมูล 1, 3, 5, 7, 9 ค่ามัธยฐานคือ 5"
   },
   {
-    "id": 18,
+    "id": 23,
     "topicId": 19,
     "question": "What is the mode of the numbers 2, 3, 3, 4, 5, 3?",
     "options": ["2", "3", "4", "5"],
@@ -144,7 +184,23 @@
     "explanation": "ฐานนิยมคือค่าที่ปรากฏบ่อยที่สุด ในชุดข้อมูล 2, 3, 3, 4, 5, 3 ตัวเลข 3 ปรากฏ 3 ครั้ง ซึ่งมากที่สุด"
   },
   {
-    "id": 19,
+    "id": 24,
+    "topicId": 19,
+    "question": "What is the range of the numbers 1, 3, 5, 7, 9?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 3,
+    "explanation": "พิสัย = ค่าสูงสุด - ค่าต่ำสุด = 9 - 1 = 8"
+  },
+  {
+    "id": 25,
+    "topicId": 19,
+    "question": "What is standard deviation?",
+    "options": ["Average of numbers", "Middle value", "Measure of spread", "Most frequent value"],
+    "answer": 2,
+    "explanation": "ส่วนเบี่ยงเบนมาตรฐาน (Standard Deviation) คือการวัดการกระจายของข้อมูลจากค่าเฉลี่ย ยิ่งค่าสูงยิ่งแสดงว่าข้อมูลกระจายมาก"
+  },
+  {
+    "id": 26,
     "topicId": 20,
     "question": "What is the probability of rolling a 6 on a fair die?",
     "options": ["1/6", "1/3", "1/2", "1"],
@@ -152,11 +208,35 @@
     "explanation": "ความน่าจะเป็นของการทอยลูกเต๋าได้ 6 = จำนวนผลลัพธ์ที่ต้องการ ÷ จำนวนผลลัพธ์ทั้งหมด = 1 ÷ 6 = 1/6"
   },
   {
-    "id": 20,
+    "id": 27,
     "topicId": 20,
     "question": "What is the probability of drawing a red card from a standard deck?",
     "options": ["1/4", "1/2", "1/3", "2/3"],
     "answer": 1,
     "explanation": "ในสำรับไพ่มาตรฐานมีไพ่แดง 26 ใบ (หัวใจและข้าวหลามตัด) และไพ่ทั้งหมด 52 ใบ ดังนั้นความน่าจะเป็น = 26/52 = 1/2"
+  },
+  {
+    "id": 28,
+    "topicId": 20,
+    "question": "What is the probability of flipping heads on a fair coin?",
+    "options": ["1/4", "1/2", "1/3", "1"],
+    "answer": 1,
+    "explanation": "ความน่าจะเป็นของการโยนเหรียญได้หัว = จำนวนผลลัพธ์ที่ต้องการ ÷ จำนวนผลลัพธ์ทั้งหมด = 1 ÷ 2 = 1/2"
+  },
+  {
+    "id": 29,
+    "topicId": 20,
+    "question": "What is the probability of rolling an even number on a die?",
+    "options": ["1/6", "1/3", "1/2", "2/3"],
+    "answer": 2,
+    "explanation": "จำนวนคู่บนลูกเต๋าคือ 2, 4, 6 (3 จำนวน) จากทั้งหมด 6 จำนวน ดังนั้นความน่าจะเป็น = 3/6 = 1/2"
+  },
+  {
+    "id": 30,
+    "topicId": 20,
+    "question": "What is the probability of drawing a king from a standard deck?",
+    "options": ["1/13", "1/4", "1/52", "4/52"],
+    "answer": 0,
+    "explanation": "ในสำรับไพ่มาตรฐานมีไพ่คิง 4 ใบ และไพ่ทั้งหมด 52 ใบ ดังนั้นความน่าจะเป็น = 4/52 = 1/13"
   }
 ]

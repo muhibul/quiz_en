@@ -121,6 +121,46 @@
   },
   {
     "id": 16,
+    "topicId": 12,
+    "question": "What is light?",
+    "options": ["A particle", "A wave", "Both particle and wave", "Neither particle nor wave"],
+    "answer": 2,
+    "explanation": "แสง (Light) มีคุณสมบัติทั้งคลื่นและอนุภาค เรียกว่า wave-particle duality ในบางสถานการณ์แสงแสดงพฤติกรรมเป็นคลื่น ในบางสถานการณ์แสดงพฤติกรรมเป็นอนุภาค"
+  },
+  {
+    "id": 17,
+    "topicId": 12,
+    "question": "What is the speed of light in vacuum?",
+    "options": ["3 × 10⁶ m/s", "3 × 10⁸ m/s", "3 × 10¹⁰ m/s", "3 × 10¹² m/s"],
+    "answer": 1,
+    "explanation": "ความเร็วแสงในสุญญากาศคือ 3 × 10⁸ เมตรต่อวินาที หรือประมาณ 300,000 กิโลเมตรต่อวินาที"
+  },
+  {
+    "id": 18,
+    "topicId": 12,
+    "question": "What is reflection?",
+    "options": ["Light bending", "Light bouncing back", "Light absorption", "Light scattering"],
+    "answer": 1,
+    "explanation": "การสะท้อน (Reflection) คือการที่แสงกระเด้งกลับเมื่อกระทบพื้นผิว ตามกฎการสะท้อน มุมตกกระทบเท่ากับมุมสะท้อน"
+  },
+  {
+    "id": 19,
+    "topicId": 12,
+    "question": "What is refraction?",
+    "options": ["Light bouncing back", "Light bending", "Light absorption", "Light scattering"],
+    "answer": 1,
+    "explanation": "การหักเห (Refraction) คือการที่แสงโค้งงอเมื่อผ่านจากตัวกลางหนึ่งไปยังอีกตัวกลางหนึ่งที่มีความหนาแน่นต่างกัน"
+  },
+  {
+    "id": 20,
+    "topicId": 12,
+    "question": "What is a lens?",
+    "options": ["A mirror", "A transparent material that bends light", "A light source", "A detector"],
+    "answer": 1,
+    "explanation": "เลนส์ (Lens) คือวัสดุโปร่งใสที่โค้งงอแสง เลนส์นูนจะรวมแสง เลนส์เว้าจะกระจายแสง"
+  },
+  {
+    "id": 21,
     "topicId": 13,
     "question": "What is a wave?",
     "options": ["A particle", "A disturbance that travels through space", "A force", "Energy"],
@@ -128,7 +168,7 @@
     "explanation": "คลื่น (Wave) คือการรบกวนที่เดินทางผ่านอวกาศและเวลา โดยไม่มีการเคลื่อนที่ของสสาร แต่มีการถ่ายเทพลังงาน"
   },
   {
-    "id": 17,
+    "id": 22,
     "topicId": 13,
     "question": "What is the frequency of a wave?",
     "options": ["Height of the wave", "Number of waves per second", "Speed of the wave", "Length of the wave"],
@@ -136,7 +176,7 @@
     "explanation": "ความถี่ (Frequency) ของคลื่นคือจำนวนคลื่นที่ผ่านจุดหนึ่งในหนึ่งวินาที มีหน่วยเป็นเฮิรตซ์ (Hz)"
   },
   {
-    "id": 18,
+    "id": 23,
     "topicId": 13,
     "question": "What is the wavelength?",
     "options": ["Height of the wave", "Number of waves per second", "Distance between two peaks", "Speed of the wave"],
@@ -144,7 +184,7 @@
     "explanation": "ความยาวคลื่น (Wavelength) คือระยะห่างระหว่างยอดคลื่นสองยอดที่ติดกัน หรือระยะห่างระหว่างจุดที่คลื่นซ้ำกัน"
   },
   {
-    "id": 19,
+    "id": 24,
     "topicId": 13,
     "question": "What is the amplitude of a wave?",
     "options": ["Height of the wave", "Number of waves per second", "Speed of the wave", "Length of the wave"],
@@ -152,11 +192,51 @@
     "explanation": "แอมพลิจูด (Amplitude) ของคลื่นคือความสูงของคลื่นจากเส้นกึ่งกลางถึงยอดคลื่น แสดงถึงพลังงานของคลื่น"
   },
   {
-    "id": 20,
+    "id": 25,
     "topicId": 13,
     "question": "What is the speed of light?",
     "options": ["3 × 10⁶ m/s", "3 × 10⁸ m/s", "3 × 10¹⁰ m/s", "3 × 10¹² m/s"],
     "answer": 1,
     "explanation": "ความเร็วแสงในสุญญากาศคือ 3 × 10⁸ เมตรต่อวินาที หรือประมาณ 300,000 กิโลเมตรต่อวินาที"
+  },
+  {
+    "id": 26,
+    "topicId": 14,
+    "question": "What is quantum mechanics?",
+    "options": ["Classical physics", "Physics of very small particles", "Thermodynamics", "Mechanics"],
+    "answer": 1,
+    "explanation": "กลศาสตร์ควอนตัม (Quantum Mechanics) คือฟิสิกส์ของอนุภาคที่เล็กมาก เช่น อิเล็กตรอน โปรตอน และอะตอม ที่แสดงพฤติกรรมแปลกๆ ที่ไม่พบในฟิสิกส์คลาสสิก"
+  },
+  {
+    "id": 27,
+    "topicId": 14,
+    "question": "What is relativity?",
+    "options": ["Classical mechanics", "Physics of high speeds and gravity", "Thermodynamics", "Optics"],
+    "answer": 1,
+    "explanation": "ทฤษฎีสัมพัทธภาพ (Relativity) คือฟิสิกส์ที่เกี่ยวข้องกับความเร็วสูงและแรงโน้มถ่วง แบ่งเป็นสัมพัทธภาพพิเศษ (ความเร็วสูง) และสัมพัทธภาพทั่วไป (แรงโน้มถ่วง)"
+  },
+  {
+    "id": 28,
+    "topicId": 14,
+    "question": "What is nuclear physics?",
+    "options": ["Physics of atoms", "Physics of atomic nuclei", "Physics of molecules", "Physics of light"],
+    "answer": 1,
+    "explanation": "ฟิสิกส์นิวเคลียร์ (Nuclear Physics) คือการศึกษานิวเคลียสของอะตอม รวมถึงการสลายตัวของนิวเคลียส ปฏิกิริยานิวเคลียร์ และพลังงานนิวเคลียร์"
+  },
+  {
+    "id": 29,
+    "topicId": 14,
+    "question": "What is particle physics?",
+    "options": ["Physics of waves", "Physics of fundamental particles", "Physics of heat", "Physics of sound"],
+    "answer": 1,
+    "explanation": "ฟิสิกส์อนุภาค (Particle Physics) คือการศึกษาอนุภาคพื้นฐานที่ประกอบเป็นสสาร เช่น ควาร์ก เลปตอน และโบซอน รวมถึงปฏิสัมพันธ์ระหว่างอนุภาคเหล่านี้"
+  },
+  {
+    "id": 30,
+    "topicId": 14,
+    "question": "What is E = mc²?",
+    "options": ["Newton's law", "Einstein's mass-energy equivalence", "Ohm's law", "Pythagorean theorem"],
+    "answer": 1,
+    "explanation": "E = mc² คือสมการของไอน์สไตน์ที่แสดงความเท่าเทียมกันของมวลและพลังงาน โดยที่ E คือพลังงาน m คือมวล และ c คือความเร็วแสง"
   }
 ]
